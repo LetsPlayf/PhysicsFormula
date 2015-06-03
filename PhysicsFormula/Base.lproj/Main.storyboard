@@ -195,24 +195,6 @@
             </objects>
             <point key="canvasLocation" x="721" y="785"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="V9c-Jn-xyd">
-            <objects>
-                <viewController id="VTw-QV-Zre" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="itg-XV-che"/>
-                        <viewControllerLayoutGuide type="bottom" id="1xX-Ce-tfQ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="GkN-mp-SxT">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3Oe-r6-OZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1508" y="407"/>
-        </scene>
     </scenes>
     <resources>
         <image name="1165747-1280x800-[DesktopNexus.com] (1)" width="1280" height="800"/>
