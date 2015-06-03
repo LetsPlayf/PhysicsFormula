@@ -6,28 +6,240 @@
                                {
                                "image": "file",
                                "titulo": "Velocidade Média"
+                               },
+                               {
+                               "image": "file",
+                               "titulo": "Função Horária do deslocamento"
                                }
                                ],
+                "Movimento uniformemente variado": [
+                                                    {
+                                                    "image": "file",
+                                                    "titulo": "Aceleração Média"
+                                                    },
+                                                    {
+                                                    "image": "file",
+                                                    "titulo": "Função horária da velocidade"
+                                                    },
+                                                    {
+                                                    "image": "file",
+                                                    "titulo": "Função horária da posição em função do tempo"
+                                                    },
+                                                    {
+                                                    "image": "file",
+                                                    "titulo": "Equação de Torricelli"
+                                                    }
+                                                    ],
                 "Movimento Vertical": [
                                        {
                                        "image": "file",
-                                       "titulo": ""
+                                       "titulo": "Função horária da velocidade no movimento vertical"
                                        },
                                        {
                                        "image": "file",
-                                       "titulo": ""
+                                       "titulo": "Função horária da posição em função do tempo no movimento vertical"
                                        },
                                        {
                                        "image": "file",
-                                       "titulo": ""
+                                       "titulo": "Equação de Torricelli no movimento vertical"
+                                       }
+                                       ],
+                "Movimento Oblíquo": [
+                                      {
+                                      "image": "file",
+                                      "titulo": "Função horária da posição horizontal"
+                                      },
+                                      {
+                                      "image": "file",
+                                      "titulo": "Componente horizontal da velocidade inicial"
+                                      },
+                                      {
+                                      "image": "file",
+                                      "titulo": "Função horária da posição vertical"
+                                      },
+                                      {
+                                      "image": "file",
+                                      "titulo": "Componente vertical da velocidade inicial"
+                                      },
+                                      {
+                                      "image": "file",
+                                      "titulo": "Alcance máximo do projétil horizontalmente"
+                                      }
+                                      ],
+                "Movimento Circular": [
+                                       {
+                                       "image": "file",
+                                       "titulo": "Posição angular"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Deslocamento angular"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Velocidade angular"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Aceleração angular"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Função horária da posição angular no movimento circular uniforme"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Função horária da velocidade angular"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Função horária da posição angular"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Equação de Torricelli para movimento circular"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Aceleração centrípeta"
                                        }
                                        ]
             },
             "Dinâmica": {
-                "Força Peso": {
-                    "image": "file",
-                    "titulo": "Função horária da velocidade no movimento vertical"
-                }
+                "Leis de Newton": [
+                                   {
+                                   "image": "file",
+                                   "titulo": "Força Resultante"
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "1ª Lei de Newton"
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "2ª Lei de Newton"
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "2ª Lei de Newton vetorial"
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "3ª Lei de Newton"
+                                   }
+                                   ],
+                "Força Peso": [
+                               {
+                               "image": "file",
+                               "titulo": "Função horária da velocidade no movimento vertical"
+                               }
+                               ],
+                "Força de Atrito": [
+                                    {
+                                    "image": "file",
+                                    "titulo": "Força de atrito estático"
+                                    },
+                                    {
+                                    "image": "file",
+                                    "titulo": "Força de atrito dinâmico"
+                                    }
+                                    ],
+                "Força Elástica": [
+                                   {
+                                   "image": "file",
+                                   "titulo": "Lei de Hooke"
+                                   }  
+                                   ],
+                "Força Centrípeta": [
+                                     {
+                                     "image": "file",
+                                     "titulo": "Força centrípeta"
+                                     }  
+                                     ],
+                "Trabalho de uma força": [
+                                          {
+                                          "image": "file",
+                                          "titulo": "Trabalho"
+                                          }
+                                          ],
+                "Potência": [
+                             {
+                             "image": "file",
+                             "titulo": "Potência média"
+                             },
+                             {
+                             "image": "file",
+                             "titulo": "Potência intantânea"
+                             }
+                             ],
+                "Energia": [
+                            {
+                            "image": "file",
+                            "titulo": "Energia cinética"
+                            },
+                            {
+                            "image": "file",
+                            "titulo": "Energia potencial gravitacional"
+                            },
+                            {
+                            "image": "file",
+                            "titulo": "Energia potencial elástica"
+                            },
+                            {
+                            "image": "file",
+                            "titulo": "Energia Mecânica"
+                            }
+                            ],
+                "Impulso e quantidade de movimento": [
+                                                      {
+                                                      "image": "file",
+                                                      "titulo": "Impulso"
+                                                      },
+                                                      {
+                                                      "image": "file",
+                                                      "titulo": "Quantidade de movimento"
+                                                      },
+                                                      {
+                                                      "image": "file",
+                                                      "titulo": "Teorema do impulso"
+                                                      },
+                                                      {
+                                                      "image": "file",
+                                                      "titulo": "Conservação da quantidade de movimento"
+                                                      }
+                                                      ]
+            },
+            "Estática": {
+                "Equilíbio": [
+                              {
+                              "image": "file",
+                              "titulo": "Equilíbrio estático"
+                              },
+                              {
+                              "image": "file",
+                              "titulo": "Equilíbrio dinâmico"
+                              }
+                              ],
+                "Estática de um ponto": [
+                                         {
+                                         "image": "file",
+                                         "titulo": "Estática de um ponto"
+                                         }
+                                         ],
+                "Estática de um corpo rígido": [
+                                                {
+                                                "image": "file",
+                                                "titulo": "Centro de massa"
+                                                },
+                                                {
+                                                "image": "file",
+                                                "titulo": "Momento de uma força - Torque"
+                                                },
+                                                {
+                                                "image": "file",
+                                                "titulo": "Estática de um corpo"
+                                                }
+                                                ]
             }
         },
         "Termologia": {
