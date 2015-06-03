@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     var pickerViewData = []
 
-    
+    var bigArea : String!
     
     
     
@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     //pickerViewData = ["Cinemática", "Dinâmica", "Estática", "Hidrostática", "Gravitação Universal"]
         var access = AcessData()
         pickerViewData = access.accessingSubAreas("Mecânica")
+        bigArea = "Mecânica"
         
     
         performSegueWithIdentifier("toFormulaView", sender: nil)
@@ -80,6 +81,7 @@ class ViewController: UIViewController {
         
         let destinationVC = segue.destinationViewController as! FormulaViewController
             destinationVC.pickerViewData = self.pickerViewData
+            destinationVC.bigArea = self.bigArea
         
         }
     

@@ -21,6 +21,8 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     var formulasSection = [String]()
     
+    var bigArea : String!
+    
     @IBOutlet weak var tableView: UITableView!
     
    
@@ -28,9 +30,13 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        var p = AcessData()
         
-        formulasSection = ["Velocidade", "Movimento Uniforme", "Movimento uniformemente variadao", "Movimento Vertical", "Movimento Oblíquo", "Movimento circular"]
+        
+    
+        
+       
+
      
 
         
@@ -38,40 +44,9 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     
     
-    //Reading JSON
+    
 
-    func readJSON(){
-        
-     
-        let filePath = NSBundle.mainBundle().pathForResource("formula", ofType: "json")
-        let data = NSData(contentsOfFile: filePath!)
-        var error : NSError?
-        
-        let formulasDictionary = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error) as! Dictionary<String,[AnyObject]>
-        
-        if let areas = formulasDictionary["formulas"] {
-            for area in areas {
-                let areaName: String = area.allKeys.first as! String
-                println(areaName)
-//                if let (subarea,  = area
-//                println(area as! Dictionary<String,[AnyObject]>)
-            }
-            
-        }
-        
-        
-        //tableViewData = formulasDictionary[kindOfFormula] as! NSArray
-        
-        /*
-        for var i=0 ; i<tableViewData.count; i++ {
-            var name = tableViewData[i]["nome"] as! String
-            
-            formulasNames.append(name)
-            
-        }
-        */
-        
-    }
+
     
     
     override func didReceiveMemoryWarning() {
@@ -98,10 +73,18 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         println("Alegria em: \(pickerViewData[row] as! String)")
         
         kindOfFormula = pickerViewData[row] as! String;
-  formulasNames = []
-        readJSON()
+  
+        formulasNames = []
+        
+        var ob = AcessData()
+        
+       formulasSection = ob.gettingTheSections(kindOfFormula, bigArea: bigArea)
         self.tableView.reloadData()
         
+        for(var i = 0; i<formulasSection.count ; i++ ){
+         println(formulasSection[i])
+        }
+    
         
     }
     
