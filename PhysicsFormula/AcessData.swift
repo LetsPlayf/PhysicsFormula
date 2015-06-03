@@ -64,25 +64,30 @@ class AcessData {
         
         
         return vetPickerView
-        
-        
-        
-        
-        
     }
-
     
-    
+    func gettingTheFormulas(pickerViewString : String, bigArea : String, section : String) -> [String]{
+        
+        var vetFormulas = [String]()
+        
+        let filePath = NSBundle.mainBundle().pathForResource("formula",ofType:"json")
+        
+        var readError : NSError?
+        let data = NSData(contentsOfFile: filePath!, options: NSDataReadingOptions.DataReadingUncached,error: &readError)
+        
+        
+        let json = JSON(data:data!)
+        for(formula: String, subarea:JSON) in json["formulas"][bigArea][pickerViewString][section] {
+            let titulo = json["formulas"][bigArea][pickerViewString][section][formula.toInt()!]["titulo"].object as! String
+            vetFormulas.append(titulo)
+        }
+        
+        return vetFormulas
+    }
     
 }
 
 
-
-
-
-
-
-//Receber a section e devolver os nomes das fórmulas em um array.
 
 
 //Receber o nome da fórmula e devolver o nome da imagem.

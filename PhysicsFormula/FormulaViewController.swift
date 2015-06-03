@@ -83,8 +83,13 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         
         for(var i = 0; i<formulasSection.count ; i++ ){
          println(formulasSection[i])
+            formulasNames = ob.gettingTheFormulas(kindOfFormula, bigArea: bigArea, section: formulasSection[i])
+            
+            for (var j = 0; j < formulasNames.count; j++) {
+                println(formulasNames[j])
+            }
         }
-    
+        
         
     }
     
