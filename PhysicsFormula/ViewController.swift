@@ -42,15 +42,22 @@ class ViewController: UIViewController {
    
     //Wave Button
     @IBAction func waveButton(sender: AnyObject) {
+        var access = AcessData()
+        pickerViewData = access.accessingSubAreas("Ondulatória")
+        bigArea = "Ondulatória"
+    
         
-    pickerViewData = ["Movimento Harmônico Simples", "Ondas", "Acústica"]
+        
     performSegueWithIdentifier("toFormulaView", sender: nil)
     
     }
     
     // Electromagnestism button
     @IBAction func electricMagnetism(sender: AnyObject) {
-    pickerViewData = ["Eletrostática", "Eletrodinâmica", "Acústica"]
+        var access = AcessData()
+        pickerViewData = access.accessingSubAreas("Elétromagnetismo")
+        bigArea = "Elétromagnetismo"
+        
     performSegueWithIdentifier("toFormulaView", sender: nil)
     
     }
@@ -59,7 +66,10 @@ class ViewController: UIViewController {
     // Optic Button
     @IBAction func opticButton(sender: AnyObject) {
     
-    pickerViewData = ["Óptica Geométrica"]
+        var access = AcessData()
+        pickerViewData = access.accessingSubAreas("Ótica")
+        bigArea = "Ótica"
+        
     performSegueWithIdentifier("toFormulaView", sender: nil)
     
     }
@@ -67,7 +77,9 @@ class ViewController: UIViewController {
     //Thermology Button
     @IBAction func thermologyButton(sender: AnyObject) {
     
-    pickerViewData = ["Termometria", "Calorimetria", "Estudo dos Gases", "Termodinâmica", "Dilatação", "Entropia"]
+        var access = AcessData()
+        pickerViewData = access.accessingSubAreas("Termologia")
+        bigArea = "Termologia"
     performSegueWithIdentifier("toFormulaView", sender: nil)
     
     }

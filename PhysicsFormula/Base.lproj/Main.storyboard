@@ -97,7 +97,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lo0-sR-4qN">
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lo0-sR-4qN">
                                 <rect key="frame" x="0.0" y="42" width="600" height="162"/>
                                 <connections>
                                     <outlet property="dataSource" destination="MTi-fw-gMG" id="80J-Um-Uof"/>
@@ -116,7 +116,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="viu-XQ-ViP">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="viu-XQ-ViP">
                                 <rect key="frame" x="0.0" y="229" width="600" height="371"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -176,16 +176,6 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="viu-XQ-ViP" firstAttribute="top" secondItem="lo0-sR-4qN" secondAttribute="bottom" constant="25" id="1zq-G6-lsp"/>
-                            <constraint firstItem="lo0-sR-4qN" firstAttribute="top" secondItem="41J-O8-IZF" secondAttribute="bottom" constant="22" id="869-1F-kaH"/>
-                            <constraint firstItem="8Dl-kB-amI" firstAttribute="top" secondItem="viu-XQ-ViP" secondAttribute="bottom" id="9qv-Sd-3j9"/>
-                            <constraint firstItem="viu-XQ-ViP" firstAttribute="top" secondItem="lo0-sR-4qN" secondAttribute="bottom" constant="25" id="C8o-0k-v9U"/>
-                            <constraint firstItem="viu-XQ-ViP" firstAttribute="leading" secondItem="BfH-8g-bWL" secondAttribute="leading" id="PRt-cZ-yaD"/>
-                            <constraint firstAttribute="trailing" secondItem="lo0-sR-4qN" secondAttribute="trailing" id="g3b-gE-VZ7"/>
-                            <constraint firstAttribute="trailing" secondItem="viu-XQ-ViP" secondAttribute="trailing" id="hDt-rh-pHK"/>
-                            <constraint firstItem="lo0-sR-4qN" firstAttribute="leading" secondItem="BfH-8g-bWL" secondAttribute="leading" id="mqp-UH-2D5"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="viu-XQ-ViP" id="UDi-fW-pdK"/>
