@@ -10,7 +10,7 @@ import UIKit
 
 
 class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDataSource, UITableViewDelegate {
-
+    
     var pickerViewData = []
     
     var kindOfFormula : String!
@@ -25,7 +25,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     @IBOutlet weak var tableView: UITableView!
     
-   
+    
     
     
     override func viewDidLoad() {
@@ -33,20 +33,20 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         var p = AcessData()
         
         
-    
         
-       
-
-     
-
+        
+        
+        
+        
+        
         
     }
     
     
     
     
-
-
+    
+    
     
     
     override func didReceiveMemoryWarning() {
@@ -54,17 +54,17 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         // Dispose of any resources that can be recreated.
     }
     
-  
+    
     //MARK : Picker View Delegates
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
-       return 1
+        return 1
     }
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return pickerViewData.count
     }
-
-   
+    
+    
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
         return pickerViewData[row] as! String
     }
@@ -73,16 +73,16 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         println("Alegria em: \(pickerViewData[row] as! String)")
         
         kindOfFormula = pickerViewData[row] as! String;
-  
+        
         formulasNames = []
         
         var ob = AcessData()
         
-       formulasSection = ob.gettingTheSections(kindOfFormula, bigArea: bigArea)
+        formulasSection = ob.gettingTheSections(kindOfFormula, bigArea: bigArea)
         self.tableView.reloadData()
         
         for(var i = 0; i<formulasSection.count ; i++ ){
-         println(formulasSection[i])
+            println(formulasSection[i])
             formulasNames = ob.gettingTheFormulas(kindOfFormula, bigArea: bigArea, section: formulasSection[i])
             
             for (var j = 0; j < formulasNames.count; j++) {
@@ -102,7 +102,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         // Return the number of sections.
         return 3
     }
-
+    
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return formulasNames.count
@@ -111,7 +111,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("cell") as! FormulaNameTableViewCell
         
-        cell.nameLabel.text = self.formulasNames[indexPath.row] 
+        cell.nameLabel.text = self.formulasNames[indexPath.row]
         
         return cell
         
@@ -120,22 +120,22 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let  headerCell = tableView.dequeueReusableCellWithIdentifier("headerCell") as! CustomHeaderCell
-    
         
-
+        
+        
         return headerCell
     }
-
+    
     
     
     
     
     //Back to ViewController
     @IBAction func backToViewController(sender: AnyObject) {
-    
-    self.dismissViewControllerAnimated(false, completion: nil)
-
-    
+        
+        self.dismissViewControllerAnimated(false, completion: nil)
+        
+        
     }
     
 }
