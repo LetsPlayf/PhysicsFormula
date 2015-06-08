@@ -195,8 +195,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y0I-66-SKa">
                                 <rect key="frame" x="0.0" y="9" width="600" height="162"/>
+=======
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lo0-sR-4qN">
+                                <rect key="frame" x="0.0" y="42" width="600" height="162"/>
+>>>>>>> origin/master
                                 <connections>
                                     <outlet property="dataSource" destination="MTi-fw-gMG" id="uq2-hv-JEu"/>
                                     <outlet property="delegate" destination="MTi-fw-gMG" id="YDC-qG-RRj"/>
@@ -210,7 +215,11 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+<<<<<<< HEAD
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="4LW-S3-jO6">
+=======
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="viu-XQ-ViP">
+>>>>>>> origin/master
                                 <rect key="frame" x="0.0" y="229" width="600" height="371"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -270,6 +279,7 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+<<<<<<< HEAD
                         <constraints>
                             <constraint firstItem="4LW-S3-jO6" firstAttribute="top" secondItem="y0I-66-SKa" secondAttribute="bottom" constant="25" id="8vz-bA-DpS"/>
                             <constraint firstAttribute="trailing" secondItem="4LW-S3-jO6" secondAttribute="trailing" id="KRn-iX-SIa"/>
@@ -280,6 +290,8 @@
                             <constraint firstItem="4LW-S3-jO6" firstAttribute="top" secondItem="41J-O8-IZF" secondAttribute="bottom" constant="209" id="idQ-pL-ZDE"/>
                             <constraint firstItem="4LW-S3-jO6" firstAttribute="top" secondItem="y0I-66-SKa" secondAttribute="bottom" constant="25" id="mAQ-C6-Ewx"/>
                         </constraints>
+=======
+>>>>>>> origin/master
                     </view>
                     <connections>
                         <outlet property="tableView" destination="4LW-S3-jO6" id="XJO-ty-4kX"/>

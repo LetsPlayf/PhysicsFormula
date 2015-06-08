@@ -42,34 +42,72 @@ class ViewController: UIViewController {
     
     //Wave Button
     @IBAction func waveButton(sender: AnyObject) {
+        var access = AcessData()
+        pickerViewData = access.accessingSubAreas("Ondulatória")
+        bigArea = "Ondulatória"
+    
         
+        
+<<<<<<< HEAD
         pickerViewData = ["Movimento Harmônico Simples", "Ondas", "Acústica"]
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
+=======
+    performSegueWithIdentifier("toFormulaView", sender: nil)
+    
+>>>>>>> origin/master
     }
     
     // Electromagnestism button
     @IBAction func electricMagnetism(sender: AnyObject) {
+<<<<<<< HEAD
         pickerViewData = ["Eletrostática", "Eletrodinâmica", "Acústica"]
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
+=======
+        var access = AcessData()
+        pickerViewData = access.accessingSubAreas("Elétromagnetismo")
+        bigArea = "Elétromagnetismo"
+        
+    performSegueWithIdentifier("toFormulaView", sender: nil)
+    
+>>>>>>> origin/master
     }
     
     
     // Optic Button
     @IBAction func opticButton(sender: AnyObject) {
+<<<<<<< HEAD
         
         pickerViewData = ["Óptica Geométrica"]
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
+=======
+    
+        var access = AcessData()
+        pickerViewData = access.accessingSubAreas("Ótica")
+        bigArea = "Ótica"
+        
+    performSegueWithIdentifier("toFormulaView", sender: nil)
+    
+>>>>>>> origin/master
     }
     
     //Thermology Button
     @IBAction func thermologyButton(sender: AnyObject) {
+<<<<<<< HEAD
         
         pickerViewData = ["Termometria", "Calorimetria", "Estudo dos Gases", "Termodinâmica", "Dilatação", "Entropia"]
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
+=======
+    
+        var access = AcessData()
+        pickerViewData = access.accessingSubAreas("Termologia")
+        bigArea = "Termologia"
+    performSegueWithIdentifier("toFormulaView", sender: nil)
+    
+>>>>>>> origin/master
     }
     
     
