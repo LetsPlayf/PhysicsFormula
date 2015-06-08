@@ -34,17 +34,11 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         
         
         
-<<<<<<< HEAD
         
         
         
         
         
-=======
-     
-     
-
->>>>>>> origin/master
         
     }
     
@@ -94,10 +88,6 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
             for (var j = 0; j < formulasNames.count; j++) {
                 println(formulasNames[j])
             }
-        
-        
-        
-        
         }
         
         
@@ -110,14 +100,11 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // 1
         // Return the number of sections.
-        return formulasSection.count
+        return 3
     }
     
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        sectionTitle = formulasSection
-        
-        
         return formulasNames.count
     }
     
