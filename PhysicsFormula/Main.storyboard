@@ -206,7 +206,11 @@
                                 <rect key="frame" x="0.0" y="9" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Title" id="NVp-UA-snQ">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="6DU-JK-Sfq"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="6DU-JK-Sfq">
+                                            <connections>
+                                                <action selector="backToViewController:" destination="MTi-fw-gMG" id="mcW-Ts-DoU"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
