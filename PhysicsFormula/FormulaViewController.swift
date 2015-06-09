@@ -33,8 +33,8 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         var p = AcessData()
         
         
-        
-        
+        sectionAndFormulas = p.sectionsCreator(pickerViewData[0] as! String, bigArea: bigArea)
+        formulasSection = p.gettingTheSections(pickerViewData[0] as! String, bigArea: bigArea)
         
         
         
@@ -82,15 +82,6 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         sectionAndFormulas = ob.sectionsCreator(kindOfFormula, bigArea: bigArea)
         
         self.tableView.reloadData()
-        
-        for(var i = 0; i<formulasSection.count ; i++ ){
-            println(formulasSection[i])
-            var formulasNames = ob.gettingTheFormulas(kindOfFormula, bigArea: bigArea, section: formulasSection[i])
-            
-            for (var j = 0; j < formulasNames.count; j++) {
-                println(formulasNames[j])
-            }
-        }
         
         
     }

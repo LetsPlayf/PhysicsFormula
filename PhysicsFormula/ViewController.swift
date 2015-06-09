@@ -17,8 +17,6 @@ class ViewController: UIViewController {
     
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -31,26 +29,29 @@ class ViewController: UIViewController {
     
     //Mechanic Button
     @IBAction func mechanicButton(sender: AnyObject) {
-        //pickerViewData = ["Cinemática", "Dinâmica", "Estática", "Hidrostática", "Gravitação Universal"]
+        
         var access = AcessData()
-        pickerViewData = access.accessingSubAreas("Mecânica")
         bigArea = "Mecânica"
-        
-        
+        pickerViewData = access.accessingSubAreas(bigArea)
+
         performSegueWithIdentifier("toFormulaView", sender: nil)
     }
     
     //Wave Button
     @IBAction func waveButton(sender: AnyObject) {
-        
-        pickerViewData = ["Movimento Harmônico Simples", "Ondas", "Acústica"]
+        var access = AcessData()
+        bigArea = "Ondulatória"
+        pickerViewData = access.accessingSubAreas(bigArea)
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
     }
     
     // Electromagnestism button
     @IBAction func electricMagnetism(sender: AnyObject) {
-        pickerViewData = ["Eletrostática", "Eletrodinâmica", "Acústica"]
+        var access = AcessData()
+        bigArea = "Elétromagnetismo"
+        pickerViewData = access.accessingSubAreas(bigArea)
+        
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
     }
@@ -58,8 +59,9 @@ class ViewController: UIViewController {
     
     // Optic Button
     @IBAction func opticButton(sender: AnyObject) {
-        
-        pickerViewData = ["Óptica Geométrica"]
+        var access = AcessData()
+        bigArea = "Ótica"
+        pickerViewData = access.accessingSubAreas(bigArea)
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
     }
@@ -67,7 +69,10 @@ class ViewController: UIViewController {
     //Thermology Button
     @IBAction func thermologyButton(sender: AnyObject) {
         
-        pickerViewData = ["Termometria", "Calorimetria", "Estudo dos Gases", "Termodinâmica", "Dilatação", "Entropia"]
+        var access = AcessData()
+        bigArea = "Termologia"
+        pickerViewData = access.accessingSubAreas(bigArea)
+        
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
     }
