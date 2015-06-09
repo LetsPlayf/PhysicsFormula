@@ -21,6 +21,8 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     var bigArea : String!
     
+    var image : String!
+    
     var sectionAndFormulas : Dictionary<String,NSArray>!
     
     @IBOutlet weak var tableView: UITableView!
@@ -32,7 +34,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         super.viewDidLoad()
         var p = AcessData()
         
-        
+        kindOfFormula = pickerViewData[0] as! String
         sectionAndFormulas = p.sectionsCreator(pickerViewData[0] as! String, bigArea: bigArea)
         formulasSection = p.gettingTheSections(pickerViewData[0] as! String, bigArea: bigArea)
         
@@ -122,9 +124,21 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        var ob = AcessData()
+        var sectionTitle : String = formulasSection[indexPath.section]
+        image = ob.gettinTheImageOfFormula(kindOfFormula, bigArea: bigArea, section: sectionTitle, indice: indexPath.row)
+        performSegueWithIdentifier("toImageFormula", sender: nil)
+        
+    }
+
     
-    
-    
+    //MARK : Navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "toImageFormula" {
+            
+        }
+    }
     
     
     

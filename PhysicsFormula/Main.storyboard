@@ -287,11 +287,30 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="4LW-S3-jO6" id="XJO-ty-4kX"/>
+                        <segue destination="lvK-bP-uSR" kind="show" identifier="toImageFormula" id="Q3p-Bk-W67"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ysK-Qa-fai" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="721" y="790"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1bO-bK-YsJ">
+            <objects>
+                <viewController id="lvK-bP-uSR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GHo-yb-FHp"/>
+                        <viewControllerLayoutGuide type="bottom" id="ctQ-gQ-RLj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ttk-tu-HTE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdG-5v-gjn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1532" y="790"/>
         </scene>
     </scenes>
     <resources>
