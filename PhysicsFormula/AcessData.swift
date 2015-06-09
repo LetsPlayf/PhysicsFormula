@@ -36,7 +36,7 @@ class AcessData {
         }
         
     
- return vetPickerView
+        return vetPickerView
         
     }
         
@@ -85,6 +85,21 @@ class AcessData {
         return vetFormulas
     }
     
+    func sectionsCreator(pickerViewString : String, bigArea : String)  -> Dictionary<String,NSArray> {
+        var vetSectionsFormulas = Dictionary<String,NSArray>()
+        
+        var vetSections = gettingTheSections(pickerViewString, bigArea: bigArea)
+        var vetFormulas = [String]()
+        
+        for var i = 0; i < vetSections.count; i++ {
+            vetFormulas = gettingTheFormulas(pickerViewString, bigArea: bigArea, section: vetSections[i])
+            
+            vetSectionsFormulas[vetSections[i]] = vetFormulas
+        }
+        
+        return vetSectionsFormulas
+        
+    }
 }
 
 

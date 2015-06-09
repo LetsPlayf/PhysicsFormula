@@ -16,12 +16,12 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     var kindOfFormula : String!
     
     var tableViewData = []
-    
-    var formulasNames = [String]()
-    
+
     var formulasSection = [String]()
     
     var bigArea : String!
+    
+    var sectionAndFormulas : Dictionary<String,NSArray>!
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -74,16 +74,18 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         
         kindOfFormula = pickerViewData[row] as! String;
         
-        formulasNames = []
+       // formulasNames = []
         
         var ob = AcessData()
         
         formulasSection = ob.gettingTheSections(kindOfFormula, bigArea: bigArea)
+        sectionAndFormulas = ob.sectionsCreator(kindOfFormula, bigArea: bigArea)
+        
         self.tableView.reloadData()
         
         for(var i = 0; i<formulasSection.count ; i++ ){
             println(formulasSection[i])
-            formulasNames = ob.gettingTheFormulas(kindOfFormula, bigArea: bigArea, section: formulasSection[i])
+            var formulasNames = ob.gettingTheFormulas(kindOfFormula, bigArea: bigArea, section: formulasSection[i])
             
             for (var j = 0; j < formulasNames.count; j++) {
                 println(formulasNames[j])
@@ -100,31 +102,37 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // 1
         // Return the number of sections.
-        return 3
+        return formulasSection.count
     }
     
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return formulasNames.count
+        
+        var sectionTitle : String =  formulasSection[section]
+        var sectionSection : NSArray = sectionAndFormulas[sectionTitle]!
+        println(sectionSection)
+        return sectionSection.count
+    }
+    
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return formulasSection[section]
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("cell") as! FormulaNameTableViewCell
         
-        cell.nameLabel.text = self.formulasNames[indexPath.row]
+        
+        var sectionTitle : String =  formulasSection[indexPath.section]
+        var sectionSection : NSArray = sectionAndFormulas[sectionTitle]!
+        var formula : String = sectionSection[indexPath.row] as! String
+        cell.nameLabel.text = formula
+        
         
         return cell
         
     }
     
     
-    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let  headerCell = tableView.dequeueReusableCellWithIdentifier("headerCell") as! CustomHeaderCell
-        
-        
-        
-        return headerCell
-    }
     
     
     

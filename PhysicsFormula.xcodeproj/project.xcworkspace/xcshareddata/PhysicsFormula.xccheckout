@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DD5F7C38-018F-4107-A281-33B7348A1C06</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PhysicsFormula</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C3CD43D6FDF9CB30C252036717A3E6F24F333782</key>
+		<string>https://github.com/LetsPlayf/PhysicsFormula.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PhysicsFormula.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C3CD43D6FDF9CB30C252036717A3E6F24F333782</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LetsPlayf/PhysicsFormula.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C3CD43D6FDF9CB30C252036717A3E6F24F333782</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C3CD43D6FDF9CB30C252036717A3E6F24F333782</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PhysicsFormula</string>
+		</dict>
+	</array>
+</dict>
+</plist>
