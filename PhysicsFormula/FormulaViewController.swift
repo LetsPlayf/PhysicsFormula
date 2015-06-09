@@ -39,7 +39,6 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         
         
         
-        
     }
     
     
