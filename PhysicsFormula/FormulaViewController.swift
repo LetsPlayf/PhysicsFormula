@@ -136,6 +136,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         var sectionTitle : String =  formulasSection[indexPath.section]
         var sectionSection : NSArray = sectionAndFormulas[sectionTitle]!
 
+        sectionSection = qsort(sectionSection as! [String])
 
         
         
