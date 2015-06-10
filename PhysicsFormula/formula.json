@@ -274,7 +274,6 @@
                            "titulo": "Peso aparente"
                            }
                            ]
-                
             },
             "Gravitação universal": {
                 "Força gravitacional": [
@@ -286,25 +285,631 @@
                                         "image": "file",
                                         "titulo": "Constante de gravitação universal"
                                         }
-                                        
-                                        
                                         ],
-                
-                "Leis de Kepler":[
+                "Leis de Kepler": [
+                                   {
+                                   "image": "file",
+                                   "titulo": "1 Lei de Kepler - Lei das Órbitas "
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "2 Lei de Kepler - Lei das Áreas"
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "3ª Lei de Kepler - Lei dos Períodos"
+                                   }
+                                   ]
+            }
+        },
+        "Termologia": {
+            "Termometria": {
+                "Escalas Termométricas": [
+                                          {
+                                          "image": "file",
+                                          "titulo": "Escala Fahrenheit"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "Escala Kelvin"
+                                          }
+                                          ],
+                "Convesões entre escalas": [
+                                            {
+                                            "image": "file",
+                                            "titulo": "Celsius para Fahrenheit"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Fahrenheit para Celsius"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Celsius para Kelvin"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Kelvin para Celsius"
+                                            }
+                                            ]
+            },
+            "Calorimetria": {
+                "Calor": [
+                          {
+                          "image": "file",
+                          "titulo": "Calor sensível"
+                          },
+                          {
+                          "image": "file",
+                          "titulo": "Calor latente"
+                          },
+                          {
+                          "image": "file",
+                          "titulo": "Capacidade térmica"
+                          }
+                          ],
+                "Troca de Calor": [
+                                   {
+                                   "image": "file",
+                                   "titulo": "Equilíbrio térmico"
+                                   }
+                                   ],
+                "Propagação de calor": [
+                                        {
+                                        "image": "file",
+                                        "titulo": "Fluxo de Calor"
+                                        },
+                                        {
+                                        "image": "file",
+                                        "titulo": "Condução"
+                                        },
+                                        {
+                                        "image": "file",
+                                        "titulo": "Convecção"
+                                        },
+                                        {
+                                        "image": "file",
+                                        "titulo": "Irradiação"
+                                        }
+                                        ]
+            },
+            "Estudos dos Gases": {
+                "Transformações": [
+                                   {
+                                   "image": "file",
+                                   "titulo": "Transformação isobárica"
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "Transformação isométrica"
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "Transformação isotérmica"
+                                   },
+                                   {
+                                   "image": "file",
+                                   "titulo": "Transformação adiabática"
+                                   }
+                                   ],
+                "Equações de Clapeyron": [
+                                          {
+                                          "image": "file",
+                                          "titulo": "Equação de Clapeyron - Equação geral de estado"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "Numero de mols"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "Constante universal dos gases perfeitos"
+                                          }
+                                          ],
+                "Leigeral dos gases perfeitos": [
+                                                 {
+                                                 "image": "file",
+                                                 "titulo": "Lei geral dos gases perfeitos"
+                                                 }
+                                                 ]
+            },
+            "Termodinâmica": {
+                "Energia interna": [
+                                    {
+                                    "image": "file",
+                                    "titulo": "Energia interna"
+                                    },
+                                    {
+                                    "image": "file",
+                                    "titulo": "Variação da energia interna"
+                                    }
+                                    ],
+                "Trabalho de um gás": [
+                                       {
+                                       "image": "file",
+                                       "titulo": "Trabalho de um gás"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Trabalho de um gás sob pressão constante"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Trabalho de um gás sob temperatura constante"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Trabalho de um gás sob volume constante"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Trabalho de um gás em uma transformação adiabática"
+                                       }
+                                       ],
+                "Leis da termodinâmica": [
+                                          {
+                                          "image": "file",
+                                          "titulo": "1ª Lei da termodinâmica"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "2ª Lei da termodinâmica"
+                                          }
+                                          ],
+                "Máquinas Térmicas": [
+                                      {
+                                      "image": "file",
+                                      "titulo": "Trabalho em uma máquina térmica"
+                                      },
+                                      {
+                                      "image": "file",
+                                      "titulo": "Rendimento de uma máquina térmica"
+                                      }
+                                      ],
+                "Ciclo de Carnot": [
+                                    {
+                                    "image": "file",
+                                    "titulo": "Trabalho no ciclo de Carnot"
+                                    },
+                                    {
+                                    "image": "file",
+                                    "titulo": "Rendimento de uma máquina de Carnot"
+                                    }
+                                    ]
+            },
+            "Dilatação": {
+                "Dilatação dos sólidos": [
+                                          {
+                                          "image": "file",
+                                          "titulo": "Diltação linear"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "Dilatação superficial"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "Coeficiente de dilatação superficial"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "Dilatação volumétrica"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "Coeficiente de dilatação volumétrica"
+                                          }
+                                          ],
+                "Dilatação dos líquidos": [
+                                           {
+                                           "image": "file",
+                                           "titulo": "Dilatação aparente"
+                                           },
+                                           {
+                                           "image": "file",
+                                           "titulo": "Dilatação do recipiente"
+                                           },
+                                           {
+                                           "image": "file",
+                                           "titulo": "Dilatação real"
+                                           },
+                                           {
+                                           "image": "file",
+                                           "titulo": "Coeficiente de dilatação real"
+                                           }
+                                           ]
+            },
+            "Entropia": {
+                "Entropia": [
+                             {
+                             "image": "file",
+                             "titulo": "Variação de entropia"
+                             }
+                             ]
+            }
+        },
+        "Óptica": {
+            "Óptica Geométrica": {
+                "Reflexão da Luz": [
+                                    {
+                                    "image": "file",
+                                    "titulo": "Lei da refração"
+                                    }
+                                    ],
+                "Espelhos": [
+                             {
+                             "image": "file",
+                             "titulo": "Espelhos planos"
+                             },
+                             {
+                             "image": "file",
+                             "titulo": "Associação de espelhos planos"
+                             },
+                             {
+                             "image": "file",
+                             "titulo": "Espelhos convexos e lentes convergente"
+                             },
+                             {
+                             "image": "file",
+                             "titulo": "Equação de Gauss"
+                             },
+                             {
+                             "image": "file",
+                             "titulo": "Ampliação"
+                             }
+                             ],
+                "Refração da Luz": [
+                                    {
+                                    "image": "file",
+                                    "titulo": "Índice de refração absoluto em um meio"
+                                    },
+                                    {
+                                    "image": "file",
+                                    "titulo": "Lei de Snell-Descartes"
+                                    },
+                                    {
+                                    "image": "file",
+                                    "titulo": "Índice relativo de refração entre dois meios"
+                                    }
+                                    ]
+            }
+        },
+        "Ondulatória": {
+            "Movimento Harmônico Simples": {
+                "Movimento periódico e oscilatório": [
+                                                      {
+                                                      "image": "file",
+                                                      "titulo": "Período do movimento"
+                                                      },
+                                                      {
+                                                      "image": "file",
+                                                      "titulo": "Frequência do movimento"
+                                                      },
+                                                      {
+                                                      "image": "file",
+                                                      "titulo": "Equivalência entre frequência e período"
+                                                      }
+                                                      ],
+                "Funções horárias": [
+                                     {
+                                     "image": "file",
+                                     "titulo": "Elongação"
+                                     },
+                                     {
+                                     "image": "file",
+                                     "titulo": "Velocidade"
+                                     },
+                                     {
+                                     "image": "file",
+                                     "titulo": "Aceleração"
+                                     },
+                                     {
+                                     "image": "file",
+                                     "titulo": "Pulsação"
+                                     }
+                                     ],
+                "Força no MHS": [
+                                 {
+                                 "image": "file",
+                                 "titulo": "Força"
+                                 },
+                                 {
+                                 "image": "file",
+                                 "titulo": "Constante de força do MHS"
+                                 },
+                                 {
+                                 "image": "file",
+                                 "titulo": "Pulsação"
+                                 },
+                                 {
+                                 "image": "file",
+                                 "titulo": "Período do movimento"
+                                 },
+                                 {
+                                 "image": "file",
+                                 "titulo": "Frequência do movimento"
+                                 }
+                                 ],
+                "Osclador massa-mola": [
+                                        {
+                                        "image": "file",
+                                        "titulo": "Força"
+                                        },
+                                        {
+                                        "image": "file",
+                                        "titulo": "Período"
+                                        }
+                                        ],
+                "Pêndulo simples": [
+                                    {
+                                    "image": "file",
+                                    "titulo": "Força"
+                                    },
+                                    {
+                                    "image": "file",
+                                    "titulo": "Período"
+                                    }
+                                    ]
+            },
+            "Ondas": {
+                "Classificação das Ondas": [
+                                            {
+                                            "image": "file",
+                                            "titulo": "Ondas mecâncas"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Ondas eletro - magnéticas"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Ondas Longitudinais"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Ondas Transversais"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Ondas unidimensionais"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Ondas bidimensionais"
+                                            },
+                                            {
+                                            "image": "file",
+                                            "titulo": "Ondas tridimensionais"
+                                            }
+                                            ],
+                "Velocidade de propagação das ondas": [
+                                                       {
+                                                       "image": "file",
+                                                       "titulo": "Velocidade de propagação"
+                                                       }
+                                                       ],
+                "Reflexão das ondas": [
+                                       {
+                                       "image": "file",
+                                       "titulo": "1ª Lei da Reflexão"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "2ª Lei da Reflexão"
+                                       }
+                                       ],
+                "Refração das ondas": [
+                                       {
+                                       "image": "file",
+                                       "titulo": "1ª Lei da Refração"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Lei de Snell"
+                                       }
+                                       ],
+                "Superposição de ondas": [
+                                          {
+                                          "image": "file",
+                                          "titulo": "Elongação"
+                                          },
+                                          {
+                                          "image": "file",
+                                          "titulo": "Amplitude"
+                                          }
+                                          ]
+            },
+            "Acústica": {
+                "Velocidade de propagação do som em meios gasosos": [
+                                                                     {
+                                                                     "image": "file",
+                                                                     "titulo": "Velocidade de propagação"
+                                                                     },
+                                                                     {
+                                                                     "image": "file",
+                                                                     "titulo": "Velocidade de propagação em um mesmo gás com diferentes temperaturas"
+                                                                     }
+                                                                     ],
+                "Intervalo acústico": [
+                                       {
+                                       "image": "file",
+                                       "titulo": "Intervalo entre dois sons"
+                                       }
+                                       ],
+                "Intensidade sonora": [
+                                       {
+                                       "image": "file",
+                                       "titulo": "Intensidade sonora"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Limiar da sensação audível (LSA)"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Limiar da sensação dolorosa (LSD)"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Nível Sonoro"
+                                       }
+                                       ],
+                "Tubos sonoros": [
                                   {
                                   "image": "file",
-                                  "titulo": "1 Lei de Kepler - Lei das Órbitas "
+                                  "titulo": "Tubos abertos"
                                   },
                                   {
                                   "image": "file",
-                                  "titulo": "2 Lei de Kepler - Lei das Áreas"
-                                  },
-                                  {
-                                  "image": "file",
-                                  "titulo": "3ª Lei de Kepler - Lei dos Períodos"
+                                  "titulo": "Tubos fechados"
                                   }
-                                  ]
-                
+                                  ],
+                "Efeito Doppler": [
+                                   {
+                                   "image": "file",
+                                   "titulo": "Frequência sob efeito Doppler"
+                                   }
+                                   ]
+            }
+        },
+        "Eletromagnetismo": {
+            "Eletrostática": {
+                "Cargas elétricas": [
+                                     {
+                                     "image": "file",
+                                     "titulo": "Carga elétrica elementar"
+                                     },
+                                     {
+                                     "image": "file",
+                                     "titulo": "Carga elétrica"
+                                     }
+                                     ],
+                "Eletrização": [
+                                {
+                                "image": "file",
+                                "titulo": "Eletrização por atrito"
+                                },
+                                {
+                                "image": "file",
+                                "titulo": "Eletrização por contato"
+                                },
+                                {
+                                "image": "file",
+                                "titulo": "Eletrização por indução eletrostática"
+                                }
+                                ],
+                "Força de interação entre cargas": [
+                                                    {
+                                                    "image": "file",
+                                                    "titulo": "Lei de Coulomb"
+                                                    },
+                                                    {
+                                                    "image": "file",
+                                                    "titulo": "Constante elétrica no vácuo"
+                                                    }
+                                                    ],
+                "Campo elétrico": [
+                                   {
+                                   "image": "file",
+                                   "titulo": "Intensidade do campo elétrico"
+                                   }
+                                   ],
+                "Potencial elétrico": [
+                                       {
+                                       "image": "file",
+                                       "titulo": "Energia potencial elétrica"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Potencial elétrico"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Trabalho de uma força elétrica"
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": "Diferença de potencial"
+                                       }
+                                       ]
+            },
+            "Eletrodinâmica": {
+                "Corrente elétrica": [
+                                      {
+                                      "image": "file",
+                                      "titulo": "Intensidade da corrente elétrica"
+                                      },
+                                      {
+                                      "image": "file",
+                                      "titulo": "Continuidade da corrente elétrica"
+                                      }
+                                      ],
+                "Resistência elétrica": [
+                                         {
+                                         "image": "file",
+                                         "titulo": "Resistência elétrica"
+                                         },
+                                         {
+                                         "image": "file",
+                                         "titulo": "Condutância elétrica"
+                                         }
+                                         ],
+                "Associação de resistores": [
+                                             {
+                                             "image": "file",
+                                             "titulo": "Série"
+                                             },
+                                             {
+                                             "image": "file",
+                                             "titulo": "Paralela"
+                                             },
+                                             {
+                                             "image": "file",
+                                             "titulo": "Mista"
+                                             }
+                                             ],
+                "Efeito Joule": [
+                                 {
+                                 "image": "file",
+                                 "titulo": "Aquecimento causado por efeito Joule"
+                                 }
+                                 ],
+                "Potência elétrica": [
+                                      {
+                                      "image": "file",
+                                      "titulo": "Potência"
+                                      }
+                                      ],
+                "Consumo de energia elétrica": [
+                                                {
+                                                "image": "file",
+                                                "titulo": "Consumo de energia"
+                                                }
+                                                ]
+            },
+            "Indução Magnética": {
+                "Fluxo de indução magnética": [
+                                               {
+                                               "image": "file",
+                                               "titulo": "Fluxo de indução"
+                                               }
+                                               ],
+                "Lei de Faraday_Neumann": [
+                                           {
+                                           "image": "file",
+                                           "titulo": "Força eletromotriz"
+                                           }
+                                           ],
+                "Transformadores": [
+                                    {
+                                    "image": "file",
+                                    "titulo": "Quanto ao número de espiras"
+                                    },
+                                    {
+                                    "image": "file",
+                                    "titulo": "Conservação da potência"
+                                    }
+                                    ]
             }
         }
     }

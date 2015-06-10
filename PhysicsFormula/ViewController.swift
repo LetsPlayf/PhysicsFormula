@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     // Electromagnestism button
     @IBAction func electricMagnetism(sender: AnyObject) {
         var access = AcessData()
-        bigArea = "Elétromagnetismo"
+        bigArea = "Eletromagnetismo"
         pickerViewData = access.accessingSubAreas(bigArea)
         
         performSegueWithIdentifier("toFormulaView", sender: nil)
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     // Optic Button
     @IBAction func opticButton(sender: AnyObject) {
         var access = AcessData()
-        bigArea = "Ótica"
+        bigArea = "Óptica"
         pickerViewData = access.accessingSubAreas(bigArea)
         performSegueWithIdentifier("toFormulaView", sender: nil)
         
