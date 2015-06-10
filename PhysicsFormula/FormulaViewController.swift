@@ -8,8 +8,17 @@
 
 import UIKit
 
+extension Array {
+    var decompose : (head: T, tail: [T])? {
+        return (count > 0) ? (self[0], Array(self[1..<count])) : nil
+    }
+}
+
 
 class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDataSource, UITableViewDelegate {
+    
+    
+    var formulaName : String!
     
     var pickerViewData = []
     
@@ -22,6 +31,10 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     var bigArea : String!
     
     var image : String!
+    
+   
+    
+    @IBOutlet weak var titleBar: UINavigationItem!
     
     var sectionAndFormulas : Dictionary<String,NSArray>!
     
@@ -37,7 +50,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         kindOfFormula = pickerViewData[0] as! String
         sectionAndFormulas = p.sectionsCreator(pickerViewData[0] as! String, bigArea: bigArea)
         formulasSection = p.gettingTheSections(pickerViewData[0] as! String, bigArea: bigArea)
-        
+        titleBar.title = bigArea
         
         
         
@@ -100,6 +113,8 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
+
+        
         var sectionTitle : String =  formulasSection[section]
         var sectionSection : NSArray = sectionAndFormulas[sectionTitle]!
         println(sectionSection)
@@ -107,6 +122,9 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        formulasSection = qsort(formulasSection)
+        
         return formulasSection[section]
     }
     
@@ -114,9 +132,15 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         var cell = tableView.dequeueReusableCellWithIdentifier("cell") as! FormulaNameTableViewCell
         
         
+        
         var sectionTitle : String =  formulasSection[indexPath.section]
         var sectionSection : NSArray = sectionAndFormulas[sectionTitle]!
+
+
+        
+        
         var formula : String = sectionSection[indexPath.row] as! String
+        
         cell.nameLabel.text = formula
         
         
@@ -128,7 +152,21 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         var ob = AcessData()
         var sectionTitle : String = formulasSection[indexPath.section]
         image = ob.gettinTheImageOfFormula(kindOfFormula, bigArea: bigArea, section: sectionTitle, indice: indexPath.row)
+
+
+        let indexPath = tableView.indexPathForSelectedRow()
+        
+        let currentCell = tableView.cellForRowAtIndexPath(indexPath!) as! FormulaNameTableViewCell
+        
+        formulaName = currentCell.nameLabel.text
+        
+        println(currentCell.nameLabel.text)
+        
+
+     
+        
         performSegueWithIdentifier("toImageFormula", sender: nil)
+       
         
     }
 
@@ -136,9 +174,15 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     //MARK : Navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "toImageFormula" {
+            let destinationVC = segue.destinationViewController as! ImageViewController
+            destinationVC.formulaName = self.formulaName
+
             
         }
     }
+   
+    
+    
     
     
     
@@ -149,5 +193,19 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         
         
     }
+    
+    func qsort(input: [String]) -> [String] {
+        if let (pivot, rest) = input.decompose {
+            let lesser = rest.filter { $0 < pivot }
+            let greater = rest.filter { $0 >= pivot }
+            return qsort(lesser) + [pivot] + qsort(greater)
+        } else {
+            return []
+        }
+    }
+    
+    
+    
+    
     
 }
