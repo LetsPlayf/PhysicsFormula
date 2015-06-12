@@ -317,7 +317,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iQ9-It-iAc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iQ9-It-iAc">
                                 <rect key="frame" x="47" y="119" width="507" height="140"/>
                             </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BCq-Zm-ntY">
@@ -335,10 +335,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ctQ-gQ-RLj" firstAttribute="top" secondItem="iQ9-It-iAc" secondAttribute="bottom" constant="341" id="1MH-Bp-AUT"/>
                             <constraint firstItem="iQ9-It-iAc" firstAttribute="leading" secondItem="ttk-tu-HTE" secondAttribute="leadingMargin" constant="31" id="F67-Lw-P2a"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iQ9-It-iAc" secondAttribute="trailing" constant="30" id="ft4-9Z-oZN"/>
-                            <constraint firstItem="iQ9-It-iAc" firstAttribute="top" secondItem="GHo-yb-FHp" secondAttribute="bottom" constant="99" id="uhV-4p-w8p"/>
                         </constraints>
                     </view>
                     <connections>
