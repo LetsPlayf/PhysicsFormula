@@ -11,16 +11,23 @@ import UIKit
 class ImageViewController: UIViewController {
 
     var formulaName : String!
+    var imageName : String!
     
     @IBOutlet weak var titleBar: UINavigationItem!
     
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     
-        titleBar.title = formulaName
+       // titleBar.title = formulaName
+        
+        println(imageName)
+        imageView.image = UIImage(named: imageName)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

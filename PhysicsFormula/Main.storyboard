@@ -317,37 +317,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SYa-b2-gUa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iQ9-It-iAc">
+                                <rect key="frame" x="47" y="119" width="507" height="140"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BCq-Zm-ntY">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="KUV-EA-Qhn">
-                                        <barButtonItem key="leftBarButtonItem" title="Voltar" id="fBa-gk-lJP">
+                                    <navigationItem title="Title" id="b6R-tT-mEa">
+                                        <barButtonItem key="leftBarButtonItem" title="Voltar" id="zi2-vk-A0t">
                                             <connections>
-                                                <action selector="backToFormulaView:" destination="lvK-bP-uSR" id="GD1-n2-xIg"/>
+                                                <action selector="backToFormulaView:" destination="lvK-bP-uSR" id="QP1-WQ-lII"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iQ9-It-iAc">
-                                <rect key="frame" x="180" y="209" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="zEb-5v-taN"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SYa-b2-gUa" firstAttribute="leading" secondItem="ttk-tu-HTE" secondAttribute="leadingMargin" constant="-16" id="0qj-oO-76f"/>
-                            <constraint firstItem="iQ9-It-iAc" firstAttribute="centerX" secondItem="ttk-tu-HTE" secondAttribute="centerX" id="1G1-Zo-SMe"/>
-                            <constraint firstItem="iQ9-It-iAc" firstAttribute="centerX" secondItem="SYa-b2-gUa" secondAttribute="centerX" id="9zS-wv-ShC"/>
-                            <constraint firstItem="iQ9-It-iAc" firstAttribute="top" secondItem="SYa-b2-gUa" secondAttribute="bottom" constant="145" id="Bea-Jo-yQs"/>
-                            <constraint firstItem="ctQ-gQ-RLj" firstAttribute="top" secondItem="iQ9-It-iAc" secondAttribute="bottom" constant="263" id="XYs-RN-Lly"/>
-                            <constraint firstItem="SYa-b2-gUa" firstAttribute="top" secondItem="GHo-yb-FHp" secondAttribute="bottom" id="raY-Jj-WhS"/>
+                            <constraint firstItem="ctQ-gQ-RLj" firstAttribute="top" secondItem="iQ9-It-iAc" secondAttribute="bottom" constant="341" id="1MH-Bp-AUT"/>
+                            <constraint firstItem="iQ9-It-iAc" firstAttribute="leading" secondItem="ttk-tu-HTE" secondAttribute="leadingMargin" constant="31" id="F67-Lw-P2a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iQ9-It-iAc" secondAttribute="trailing" constant="30" id="ft4-9Z-oZN"/>
+                            <constraint firstItem="iQ9-It-iAc" firstAttribute="top" secondItem="GHo-yb-FHp" secondAttribute="bottom" constant="99" id="uhV-4p-w8p"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="titleBar" destination="KUV-EA-Qhn" id="Byf-5h-2r7"/>
+                        <outlet property="imageView" destination="iQ9-It-iAc" id="4Ce-z8-e4X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cdG-5v-gjn" userLabel="First Responder" sceneMemberID="firstResponder"/>

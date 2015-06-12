@@ -177,7 +177,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         if segue.identifier == "toImageFormula" {
             let destinationVC = segue.destinationViewController as! ImageViewController
             destinationVC.formulaName = self.formulaName
-
+            destinationVC.imageName = self.image
             
         }
     }
