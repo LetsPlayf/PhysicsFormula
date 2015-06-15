@@ -77,6 +77,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0CDCF21B2F4B2D003F4CE1 /* Formulas */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CDCF31B2F4B36003F4CE1 /* Mecanica */,
+			);
+			name = Formulas;
+			sourceTree = "<group>";
+		};
+		9A0CDCF31B2F4B36003F4CE1 /* Mecanica */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CDCF41B2F4B3D003F4CE1 /* Cinematica */,
+			);
+			name = Mecanica;
+			sourceTree = "<group>";
+		};
+		9A0CDCF41B2F4B3D003F4CE1 /* Cinematica */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CDCF51B2F4B43003F4CE1 /* Velocidade */,
+			);
+			name = Cinematica;
+			sourceTree = "<group>";
+		};
+		9A0CDCF51B2F4B43003F4CE1 /* Velocidade */ = {
+			isa = PBXGroup;
+			children = (
+				9A9A52931B2F3D9D004463A5 /* VelocidadeMédia.xib */,
+				9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */,
+			);
+			name = Velocidade;
+			sourceTree = "<group>";
+		};
 		9A4F8E6F1B0A743C0059EF83 = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +136,7 @@
 				9A4F8E9F1B0A745A0059EF83 /* View */,
 				9A4F8EA01B0A75020059EF83 /* formula.json */,
 				AD9B0B091B2768260075584A /* Main.storyboard */,
-				9A9A52931B2F3D9D004463A5 /* VelocidadeMédia.xib */,
-				9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */,
+				9A0CDCF21B2F4B2D003F4CE1 /* Formulas */,
 				9A9A52951B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib */,
 				AD9B0B0B1B29F0230075584A /* Images.xcassets */,
 				9A4F8E7D1B0A743C0059EF83 /* AppDelegate.swift */,
