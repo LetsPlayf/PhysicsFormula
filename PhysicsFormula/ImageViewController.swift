@@ -8,14 +8,24 @@
 
 import UIKit
 
+extension UIViewController {
+    class func loadFromNibNamed(nibNamed: String, bundle : NSBundle? = nil) -> UIView? {
+        return UINib(
+            nibName: nibNamed,
+            bundle: bundle
+            ).instantiateWithOwner(nil, options: nil)[0] as? UIView
+    }
+}
 class ImageViewController: UIViewController {
 
+  
+    @IBOutlet weak var myView: UIView!
+   
     var formulaName : String!
     var imageName : String!
     
     @IBOutlet weak var titleBar: UINavigationItem!
     
-    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         
@@ -25,10 +35,16 @@ class ImageViewController: UIViewController {
        // titleBar.title = formulaName
         
         println(imageName)
-        imageView.image = UIImage(named: imageName)
+        //imageView.image = UIImage(named: imageName)
         
+
+    
+        myView.addSubview( ImageViewController.loadFromNibNamed(imageName)!)
         
     }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

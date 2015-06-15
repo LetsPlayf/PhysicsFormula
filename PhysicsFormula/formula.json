@@ -4,13 +4,13 @@
             "Cinemática": {
                 "Velocidade": [
                                {
-                               "image": "0",
+                               "image": "VelocidadeMédia",
                                "titulo": "Velocidade Média"
                                }
                                ],
                 "Movimento uniforme": [
                                        {
-                                       "image": "1",
+                                       "image": "Teste",
                                        "titulo": "Função Horária do deslocamento"
                                        }
                                        ],
