@@ -16,7 +16,7 @@
 		9A5880CB1B0D294B0058563A /* FormulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5880CA1B0D294B0058563A /* FormulaViewController.swift */; };
 		9A7DC2971B0A8A5700512B86 /* FormulaNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */; };
 		9A9A52941B2F3D9D004463A5 /* VelocidadeMédia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52931B2F3D9D004463A5 /* VelocidadeMédia.xib */; };
-		9A9A52961B2F41E2004463A5 /* Teste.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52951B2F41E2004463A5 /* Teste.xib */; };
+		9A9A52961B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52951B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib */; };
 		9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */; };
 		AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B091B2768260075584A /* Main.storyboard */; };
 		AD9B0B0C1B29F0230075584A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B0B1B29F0230075584A /* Images.xcassets */; };
@@ -49,7 +49,7 @@
 		9A5880CA1B0D294B0058563A /* FormulaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaViewController.swift; sourceTree = "<group>"; };
 		9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaNameTableViewCell.swift; sourceTree = "<group>"; };
 		9A9A52931B2F3D9D004463A5 /* VelocidadeMédia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "VelocidadeMédia.xib"; sourceTree = "<group>"; };
-		9A9A52951B2F41E2004463A5 /* Teste.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Teste.xib; sourceTree = "<group>"; };
+		9A9A52951B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDoDeslocamento.xib; sourceTree = "<group>"; };
 		9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelocidadeMedia.swift; sourceTree = "<group>"; };
 		AD9B0B091B2768260075584A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AD9B0B0B1B29F0230075584A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 				AD9B0B091B2768260075584A /* Main.storyboard */,
 				9A9A52931B2F3D9D004463A5 /* VelocidadeMédia.xib */,
 				9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */,
-				9A9A52951B2F41E2004463A5 /* Teste.xib */,
+				9A9A52951B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib */,
 				AD9B0B0B1B29F0230075584A /* Images.xcassets */,
 				9A4F8E7D1B0A743C0059EF83 /* AppDelegate.swift */,
 				9A4F8E861B0A743C0059EF83 /* LaunchScreen.xib */,
@@ -251,7 +251,7 @@
 				9A4F8E881B0A743C0059EF83 /* LaunchScreen.xib in Resources */,
 				9A9A52941B2F3D9D004463A5 /* VelocidadeMédia.xib in Resources */,
 				AD9B0B0C1B29F0230075584A /* Images.xcassets in Resources */,
-				9A9A52961B2F41E2004463A5 /* Teste.xib in Resources */,
+				9A9A52961B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib in Resources */,
 				9A4F8EA11B0A75020059EF83 /* formula.json in Resources */,
 				AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */,
 			);
