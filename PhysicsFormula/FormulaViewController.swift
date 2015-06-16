@@ -8,6 +8,11 @@
 
 import UIKit
 
+extension Array {
+    var decompose : (head: T, tail: [T])? {
+        return (count > 0) ? (self[0], Array(self[1..<count])) : nil
+    }
+}
 
 
 class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDataSource, UITableViewDelegate {
@@ -118,7 +123,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
-        
+        formulasSection = qsort(formulasSection)
         
         return formulasSection[section]
     }
@@ -131,7 +136,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         var sectionTitle : String =  formulasSection[indexPath.section]
         var sectionSection : NSArray = sectionAndFormulas[sectionTitle]!
 
-       
+        sectionSection = qsort(sectionSection as! [String])
 
         
         
@@ -190,7 +195,15 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         
     }
     
-    
+    func qsort(input: [String]) -> [String] {
+        if let (pivot, rest) = input.decompose {
+            let lesser = rest.filter { $0 < pivot }
+            let greater = rest.filter { $0 >= pivot }
+            return qsort(lesser) + [pivot] + qsort(greater)
+        } else {
+            return []
+        }
+    }
     
     
     
