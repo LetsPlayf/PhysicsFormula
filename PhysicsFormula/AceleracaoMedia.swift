@@ -49,9 +49,9 @@ class AceleracaoMedia: UIView {
             
             var  result : Double = deltaSDobule/deltaTDouble
             
+           
             
-            
-            resultLabel.text = String(format: "%.2f",result)
+            resultLabel.text = String(format: "%.2f",result) + " m/s" + "\u{00B2}"
         }
         
     }

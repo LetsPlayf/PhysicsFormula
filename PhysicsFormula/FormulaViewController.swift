@@ -152,9 +152,7 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         var ob = AcessData()
         var sectionTitle : String = formulasSection[indexPath.section]
-        image = ob.gettinTheImageOfFormula(kindOfFormula, bigArea: bigArea, section: sectionTitle, indice: indexPath.row)
-
-
+        
         let indexPath = tableView.indexPathForSelectedRow()
         
         let currentCell = tableView.cellForRowAtIndexPath(indexPath!) as! FormulaNameTableViewCell
@@ -162,6 +160,11 @@ class FormulaViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         formulaName = currentCell.nameLabel.text
         
         println(currentCell.nameLabel.text)
+        
+        image = ob.gettinTheImageOfFormula(kindOfFormula, bigArea: bigArea, section: sectionTitle, nomeformula: formulaName)
+
+
+       
         
 
      

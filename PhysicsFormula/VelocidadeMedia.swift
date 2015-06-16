@@ -50,7 +50,7 @@ class VelocidadeMedia: UIView {
             
             
             
-            resultLabel.text = String(format: "%.2f",result)
+            resultLabel.text = String(format: "%.2f",result) + " m/s"
         }
         
     }

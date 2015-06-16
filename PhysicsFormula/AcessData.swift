@@ -101,15 +101,20 @@ class AcessData {
         
     }
     
-    func gettinTheImageOfFormula(pickerViewString : String, bigArea : String, section : String, indice : Int) -> String {
+    func gettinTheImageOfFormula(pickerViewString : String, bigArea : String, section : String, nomeformula : String) -> String {
         let filePath = NSBundle.mainBundle().pathForResource("formula",ofType:"json")
-        
+        var image : String!
         var readError : NSError?
         let data = NSData(contentsOfFile: filePath!, options: NSDataReadingOptions.DataReadingUncached,error: &readError)
         
         
         let json = JSON(data:data!)
-        let image = json["formulas"][bigArea][pickerViewString][section][indice]["image"].object as! String
+        for var i = 0; i < json["formulas"][bigArea][pickerViewString][section].count; i++ {
+            var nome = json["formulas"][bigArea][pickerViewString][section][i]["titulo"].object as! String
+            if nomeformula == nome{
+                 image = json["formulas"][bigArea][pickerViewString][section][i]["image"].object as! String
+            }
+        }
         
         return image
     }
