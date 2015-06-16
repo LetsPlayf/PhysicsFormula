@@ -19,6 +19,10 @@
 		9A7DC2971B0A8A5700512B86 /* FormulaNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */; };
 		9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */; };
 		9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */; };
+		AD50E4721B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */; };
+		AD71958C1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD71958B1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift */; };
+		AD71958F1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD71958E1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */; };
+		AD7195911B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7195901B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */; };
 		AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B091B2768260075584A /* Main.storyboard */; };
 		AD9B0B0C1B29F0230075584A /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B0B1B29F0230075584A /* image.xcassets */; };
 		ADE075421B260B9E00DE599B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0753E1B260B9E00DE599B /* SwiftyJSON.swift */; };
@@ -53,6 +57,10 @@
 		9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaNameTableViewCell.swift; sourceTree = "<group>"; };
 		9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VelocidadeMedia.xib; sourceTree = "<group>"; };
 		9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelocidadeMedia.swift; sourceTree = "<group>"; };
+		AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncaoHorariaDaPosicaoHorizontal.swift; sourceTree = "<group>"; };
+		AD71958B1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncaoHorariaDoDeslocamento.swift; sourceTree = "<group>"; };
+		AD71958E1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDaPosicaoHorizontal.xib; sourceTree = "<group>"; };
+		AD7195901B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDaPosicaoHorizontal.xib; sourceTree = "<group>"; };
 		AD9B0B091B2768260075584A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AD9B0B0B1B29F0230075584A /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		ADE0753E1B260B9E00DE599B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
@@ -98,6 +106,8 @@
 		9A0CDCF41B2F4B3D003F4CE1 /* Cinematica */ = {
 			isa = PBXGroup;
 			children = (
+				AD71958D1B30B468000CAB57 /* Movimento Oblíquo */,
+				AD7195841B30A6E4000CAB57 /* Movimento Uniforme */,
 				9A2191E41B309D39001E3F67 /* Movimento Uniformemente variado */,
 				9A0CDCF51B2F4B43003F4CE1 /* Velocidade */,
 			);
@@ -211,6 +221,24 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		AD7195841B30A6E4000CAB57 /* Movimento Uniforme */ = {
+			isa = PBXGroup;
+			children = (
+				AD7195901B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */,
+				AD71958B1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift */,
+			);
+			name = "Movimento Uniforme";
+			sourceTree = "<group>";
+		};
+		AD71958D1B30B468000CAB57 /* Movimento Oblíquo */ = {
+			isa = PBXGroup;
+			children = (
+				AD71958E1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */,
+				AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */,
+			);
+			name = "Movimento Oblíquo";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -294,6 +322,8 @@
 				9A4F8E881B0A743C0059EF83 /* LaunchScreen.xib in Resources */,
 				AD9B0B0C1B29F0230075584A /* image.xcassets in Resources */,
 				9A2191E61B309D7C001E3F67 /* AceleracaoMedia.xib in Resources */,
+				AD7195911B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */,
+				AD71958F1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */,
 				9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */,
 				9A4F8EA11B0A75020059EF83 /* formula.json in Resources */,
 				AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */,
@@ -316,9 +346,11 @@
 			files = (
 				ADE075441B260B9E00DE599B /* CustomHeaderCell.swift in Sources */,
 				9A7DC2971B0A8A5700512B86 /* FormulaNameTableViewCell.swift in Sources */,
+				AD71958C1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift in Sources */,
 				ADE075431B260B9E00DE599B /* AcessData.swift in Sources */,
 				9A4F8E801B0A743C0059EF83 /* ViewController.swift in Sources */,
 				9A4F8E7E1B0A743C0059EF83 /* AppDelegate.swift in Sources */,
+				AD50E4721B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift in Sources */,
 				ADE075421B260B9E00DE599B /* SwiftyJSON.swift in Sources */,
 				9A239C4C1B28A70E003BD753 /* ImageViewController.swift in Sources */,
 				9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */,
