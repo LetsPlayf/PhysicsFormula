@@ -317,7 +317,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCq-Zm-ntY">
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCq-Zm-ntY">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="barTintColor" red="0.92086884470505048" green="0.32948152298756328" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -351,8 +351,12 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="8Rj-mr-weZ" secondAttribute="trailing" constant="-16" id="1OD-Yq-4hb"/>
+                            <constraint firstItem="BCq-Zm-ntY" firstAttribute="leading" secondItem="ttk-tu-HTE" secondAttribute="leadingMargin" constant="-16" id="4BG-Rv-jkh"/>
                             <constraint firstItem="8Rj-mr-weZ" firstAttribute="leading" secondItem="ttk-tu-HTE" secondAttribute="leadingMargin" constant="-16" id="MYc-dT-nn5"/>
+                            <constraint firstItem="8Rj-mr-weZ" firstAttribute="top" secondItem="BCq-Zm-ntY" secondAttribute="bottom" id="XUz-je-Sot"/>
                             <constraint firstAttribute="centerY" secondItem="8Rj-mr-weZ" secondAttribute="centerY" constant="-32" id="aof-M5-Ijq"/>
+                            <constraint firstItem="BCq-Zm-ntY" firstAttribute="top" secondItem="GHo-yb-FHp" secondAttribute="bottom" id="k1P-Na-pgQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BCq-Zm-ntY" secondAttribute="trailing" constant="-16" id="ld7-oj-TFK"/>
                             <constraint firstAttribute="centerX" secondItem="8Rj-mr-weZ" secondAttribute="centerX" id="pPx-nM-ZYx"/>
                             <constraint firstItem="ctQ-gQ-RLj" firstAttribute="top" secondItem="8Rj-mr-weZ" secondAttribute="bottom" id="ydH-9H-ls4"/>
                             <constraint firstItem="8Rj-mr-weZ" firstAttribute="top" secondItem="GHo-yb-FHp" secondAttribute="bottom" constant="44" id="zas-pc-nQ5"/>
