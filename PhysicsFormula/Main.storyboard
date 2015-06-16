@@ -317,10 +317,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BCq-Zm-ntY">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCq-Zm-ntY">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.92086884470505048" green="0.32948152298756328" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="textShadowColor" red="0.13049432871750616" green="0.0023781676497238845" blue="0.18542850378787878" alpha="1" colorSpace="calibratedRGB"/>
+                                    <offsetWrapper key="textShadowOffset" horizontal="2" vertical="0.0"/>
+                                </textAttributes>
                                 <items>
-                                    <navigationItem title="Title" id="b6R-tT-mEa">
+                                    <navigationItem title="Equação" id="b6R-tT-mEa">
                                         <barButtonItem key="leftBarButtonItem" title="Voltar" id="zi2-vk-A0t">
                                             <connections>
                                                 <action selector="backToFormulaView:" destination="lvK-bP-uSR" id="QP1-WQ-lII"/>
@@ -328,19 +335,44 @@
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
+                                <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="20" width="800" height="44"/>
+                                </variation>
                             </navigationBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Rj-mr-weZ">
-                                <rect key="frame" x="31" y="89" width="553" height="478"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Rj-mr-weZ">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8Rj-mr-weZ" secondAttribute="height" multiplier="75:67" id="61l-a4-SIM"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Rj-mr-weZ" secondAttribute="trailing" constant="-16" id="1OD-Yq-4hb"/>
+                            <constraint firstItem="8Rj-mr-weZ" firstAttribute="leading" secondItem="ttk-tu-HTE" secondAttribute="leadingMargin" constant="-16" id="MYc-dT-nn5"/>
+                            <constraint firstAttribute="centerY" secondItem="8Rj-mr-weZ" secondAttribute="centerY" constant="-32" id="aof-M5-Ijq"/>
+                            <constraint firstAttribute="centerX" secondItem="8Rj-mr-weZ" secondAttribute="centerX" id="pPx-nM-ZYx"/>
+                            <constraint firstItem="ctQ-gQ-RLj" firstAttribute="top" secondItem="8Rj-mr-weZ" secondAttribute="bottom" id="ydH-9H-ls4"/>
+                            <constraint firstItem="8Rj-mr-weZ" firstAttribute="top" secondItem="GHo-yb-FHp" secondAttribute="bottom" constant="44" id="zas-pc-nQ5"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="WME-4t-D7j" appends="YES" id="ria-0V-ShQ"/>
+                        </connections>
                     </view>
                     <connections>
+                        <outlet property="mainView" destination="8Rj-mr-weZ" id="oyz-zV-CLO"/>
                         <outlet property="myView" destination="8Rj-mr-weZ" id="vFu-9K-99J"/>
+                        <outlet property="titleBar" destination="b6R-tT-mEa" id="kie-pU-8kA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cdG-5v-gjn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="WME-4t-D7j">
+                    <connections>
+                        <action selector="hideKeyboard:" destination="lvK-bP-uSR" id="gTY-uA-MKt"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1539" y="828"/>
         </scene>

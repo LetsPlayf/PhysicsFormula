@@ -15,11 +15,10 @@
 		9A4F8EA11B0A75020059EF83 /* formula.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F8EA01B0A75020059EF83 /* formula.json */; };
 		9A5880CB1B0D294B0058563A /* FormulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5880CA1B0D294B0058563A /* FormulaViewController.swift */; };
 		9A7DC2971B0A8A5700512B86 /* FormulaNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */; };
-		9A9A52941B2F3D9D004463A5 /* VelocidadeMédia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52931B2F3D9D004463A5 /* VelocidadeMédia.xib */; };
-		9A9A52961B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52951B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib */; };
+		9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */; };
 		9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */; };
 		AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B091B2768260075584A /* Main.storyboard */; };
-		AD9B0B0C1B29F0230075584A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B0B1B29F0230075584A /* Images.xcassets */; };
+		AD9B0B0C1B29F0230075584A /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B0B1B29F0230075584A /* image.xcassets */; };
 		ADE075421B260B9E00DE599B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0753E1B260B9E00DE599B /* SwiftyJSON.swift */; };
 		ADE075431B260B9E00DE599B /* AcessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE075401B260B9E00DE599B /* AcessData.swift */; };
 		ADE075441B260B9E00DE599B /* CustomHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE075411B260B9E00DE599B /* CustomHeaderCell.swift */; };
@@ -48,11 +47,10 @@
 		9A4F8EA01B0A75020059EF83 /* formula.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = formula.json; sourceTree = "<group>"; };
 		9A5880CA1B0D294B0058563A /* FormulaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaViewController.swift; sourceTree = "<group>"; };
 		9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaNameTableViewCell.swift; sourceTree = "<group>"; };
-		9A9A52931B2F3D9D004463A5 /* VelocidadeMédia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "VelocidadeMédia.xib"; sourceTree = "<group>"; };
-		9A9A52951B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDoDeslocamento.xib; sourceTree = "<group>"; };
+		9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VelocidadeMedia.xib; sourceTree = "<group>"; };
 		9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelocidadeMedia.swift; sourceTree = "<group>"; };
 		AD9B0B091B2768260075584A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		AD9B0B0B1B29F0230075584A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD9B0B0B1B29F0230075584A /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		ADE0753E1B260B9E00DE599B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		ADE0753F1B260B9E00DE599B /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
 		ADE075401B260B9E00DE599B /* AcessData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcessData.swift; sourceTree = "<group>"; };
@@ -104,7 +102,7 @@
 		9A0CDCF51B2F4B43003F4CE1 /* Velocidade */ = {
 			isa = PBXGroup;
 			children = (
-				9A9A52931B2F3D9D004463A5 /* VelocidadeMédia.xib */,
+				9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */,
 				9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */,
 			);
 			name = Velocidade;
@@ -137,8 +135,7 @@
 				9A4F8EA01B0A75020059EF83 /* formula.json */,
 				AD9B0B091B2768260075584A /* Main.storyboard */,
 				9A0CDCF21B2F4B2D003F4CE1 /* Formulas */,
-				9A9A52951B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib */,
-				AD9B0B0B1B29F0230075584A /* Images.xcassets */,
+				AD9B0B0B1B29F0230075584A /* image.xcassets */,
 				9A4F8E7D1B0A743C0059EF83 /* AppDelegate.swift */,
 				9A4F8E861B0A743C0059EF83 /* LaunchScreen.xib */,
 				9A4F8E7B1B0A743C0059EF83 /* Supporting Files */,
@@ -281,9 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4F8E881B0A743C0059EF83 /* LaunchScreen.xib in Resources */,
-				9A9A52941B2F3D9D004463A5 /* VelocidadeMédia.xib in Resources */,
-				AD9B0B0C1B29F0230075584A /* Images.xcassets in Resources */,
-				9A9A52961B2F41E2004463A5 /* FuncaoHorariaDoDeslocamento.xib in Resources */,
+				AD9B0B0C1B29F0230075584A /* image.xcassets in Resources */,
+				9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */,
 				9A4F8EA11B0A75020059EF83 /* formula.json in Resources */,
 				AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */,
 			);

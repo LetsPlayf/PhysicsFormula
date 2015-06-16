@@ -32,7 +32,7 @@ class ImageViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     
-       // titleBar.title = formulaName
+        titleBar.title = formulaName
         
         println(imageName)
         //imageView.image = UIImage(named: imageName)
@@ -52,6 +52,7 @@ class ImageViewController: UIViewController {
     }
     
 
+    @IBOutlet weak var mainView: UIView!
     // MARK: - Navigation
 
     @IBAction func backToFormulaView(sender: AnyObject) {
@@ -63,5 +64,8 @@ class ImageViewController: UIViewController {
     
     }
 
+    @IBAction func hideKeyboard(sender: AnyObject) {
+        mainView.endEditing(true)
+    }
 
 }
