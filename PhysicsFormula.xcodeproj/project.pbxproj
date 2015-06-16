@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A2191E61B309D7C001E3F67 /* AceleracaoMedia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2191E51B309D7C001E3F67 /* AceleracaoMedia.xib */; };
+		9A2191E81B30A2E1001E3F67 /* AceleracaoMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2191E71B30A2E1001E3F67 /* AceleracaoMedia.swift */; };
 		9A239C4C1B28A70E003BD753 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A239C4B1B28A70E003BD753 /* ImageViewController.swift */; };
 		9A4F8E7E1B0A743C0059EF83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F8E7D1B0A743C0059EF83 /* AppDelegate.swift */; };
 		9A4F8E801B0A743C0059EF83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F8E7F1B0A743C0059EF83 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A2191E51B309D7C001E3F67 /* AceleracaoMedia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AceleracaoMedia.xib; sourceTree = "<group>"; };
+		9A2191E71B30A2E1001E3F67 /* AceleracaoMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AceleracaoMedia.swift; sourceTree = "<group>"; };
 		9A239C4B1B28A70E003BD753 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		9A4F8E781B0A743C0059EF83 /* PhysicsFormula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsFormula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4F8E7C1B0A743C0059EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 		9A0CDCF41B2F4B3D003F4CE1 /* Cinematica */ = {
 			isa = PBXGroup;
 			children = (
+				9A2191E41B309D39001E3F67 /* Movimento Uniformemente variado */,
 				9A0CDCF51B2F4B43003F4CE1 /* Velocidade */,
 			);
 			name = Cinematica;
@@ -106,6 +111,15 @@
 				9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */,
 			);
 			name = Velocidade;
+			sourceTree = "<group>";
+		};
+		9A2191E41B309D39001E3F67 /* Movimento Uniformemente variado */ = {
+			isa = PBXGroup;
+			children = (
+				9A2191E51B309D7C001E3F67 /* AceleracaoMedia.xib */,
+				9A2191E71B30A2E1001E3F67 /* AceleracaoMedia.swift */,
+			);
+			name = "Movimento Uniformemente variado";
 			sourceTree = "<group>";
 		};
 		9A4F8E6F1B0A743C0059EF83 = {
@@ -279,6 +293,7 @@
 			files = (
 				9A4F8E881B0A743C0059EF83 /* LaunchScreen.xib in Resources */,
 				AD9B0B0C1B29F0230075584A /* image.xcassets in Resources */,
+				9A2191E61B309D7C001E3F67 /* AceleracaoMedia.xib in Resources */,
 				9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */,
 				9A4F8EA11B0A75020059EF83 /* formula.json in Resources */,
 				AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */,
@@ -307,6 +322,7 @@
 				ADE075421B260B9E00DE599B /* SwiftyJSON.swift in Sources */,
 				9A239C4C1B28A70E003BD753 /* ImageViewController.swift in Sources */,
 				9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */,
+				9A2191E81B30A2E1001E3F67 /* AceleracaoMedia.swift in Sources */,
 				9A5880CB1B0D294B0058563A /* FormulaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,17 +11,23 @@ import UIKit
 class AceleracaoMedia: UIView {
 
     @IBOutlet weak var deltaV: UITextField!
-    
     @IBOutlet weak var deltaT: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
     
+    @IBOutlet weak var cleanButton: UIButton!
+    @IBOutlet weak var resultButton: UIButton!
+    
     override func willMoveToSuperview(newSuperview: UIView?){
-        
-        deltaV.resignFirstResponder()
+        cleanButton.layer.cornerRadius = 0.09 * cleanButton.bounds.size.width
+        resultButton.layer.cornerRadius = 0.09 * resultButton.bounds.size.width
     }
     
-    @IBAction func calculate(sender: AnyObject) {
-        if(deltaV.text == "0" || deltaT.text == "" || deltaV.text == "" || deltaT.text == "0"){
+    
+    @IBAction func calcular(sender: AnyObject) {
+        
+        
+        
+        if(deltaV.text == "0" || deltaV.text == "" || deltaT.text == "" || deltaT.text == "0"){
             
             let alert = UIAlertView()
             alert.title = "Erro"
@@ -32,18 +38,16 @@ class AceleracaoMedia: UIView {
             
             
         }else{
-          let deltaVPonto = deltaV.text.stringByReplacingOccurrencesOfString(",", withString: ".", options: NSStringCompareOptions.LiteralSearch, range: nil)
             
-          let deltaTPonto = deltaT.text.stringByReplacingOccurrencesOfString(",", withString: ".", options: NSStringCompareOptions.LiteralSearch, range: nil)
+            let deltaSPonto = deltaV.text.stringByReplacingOccurrencesOfString(",", withString: ".", options: NSStringCompareOptions.LiteralSearch, range: nil)
             
+            let deltaTPonto = deltaT.text.stringByReplacingOccurrencesOfString(",", withString: ".", options: NSStringCompareOptions.LiteralSearch, range: nil)
             
-            var deltaVDobule = (deltaVPonto as NSString).doubleValue
+            var deltaSDobule = (deltaSPonto as NSString).doubleValue
             var deltaTDouble = (deltaTPonto as NSString).doubleValue
             
             
-            
-            
-            var  result : Double = deltaVDobule/deltaTDouble
+            var  result : Double = deltaSDobule/deltaTDouble
             
             
             
@@ -51,17 +55,20 @@ class AceleracaoMedia: UIView {
         }
         
     }
-
- 
-    
-    
-    
     
     @IBAction func clean(sender: AnyObject) {
-   
-    deltaV.text = nil
+        
+        
+        
+        deltaV.text = nil
         deltaT.text = nil
-    resultLabel.text = "0.0"
+        
+        resultLabel.text = String(format: "%.2f",0)
+        
     }
+
+    
+    
+    
 
 }
