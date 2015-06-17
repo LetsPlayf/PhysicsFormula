@@ -153,13 +153,17 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="164" id="H6o-mO-gGk"/>
-                                <constraint firstAttribute="centerX" secondItem="xju-VY-PQY" secondAttribute="centerX" constant="7.5" id="jWJ-A7-bDI">
-                                    <variation key="widthClass=compact" constant="-9.5"/>
+                                <constraint firstAttribute="height" constant="164" id="H6o-mO-gGk">
+                                    <variation key="widthClass=compact" constant="187"/>
                                 </constraint>
-                                <constraint firstAttribute="width" constant="278" id="kxp-YI-L6I"/>
+                                <constraint firstAttribute="centerX" secondItem="xju-VY-PQY" secondAttribute="centerX" constant="7.5" id="jWJ-A7-bDI">
+                                    <variation key="widthClass=compact" constant="-3.5"/>
+                                </constraint>
+                                <constraint firstAttribute="width" constant="278" id="kxp-YI-L6I">
+                                    <variation key="widthClass=compact" constant="290"/>
+                                </constraint>
                                 <constraint firstAttribute="centerY" secondItem="xju-VY-PQY" secondAttribute="centerY" constant="-1.5" id="mS5-CU-H3S">
-                                    <variation key="widthClass=compact" constant="-12.5"/>
+                                    <variation key="widthClass=compact" constant="-1"/>
                                 </constraint>
                             </constraints>
                             <variation key="default">
@@ -194,12 +198,14 @@
                         <constraint firstAttribute="centerX" secondItem="HC3-VH-9oc" secondAttribute="centerX" id="O2b-1s-Rn8">
                             <variation key="widthClass=compact" constant="6"/>
                         </constraint>
-                        <constraint firstAttribute="centerX" secondItem="w54-1D-COV" secondAttribute="centerX" id="eMi-6J-r9S"/>
+                        <constraint firstAttribute="centerX" secondItem="w54-1D-COV" secondAttribute="centerX" id="eMi-6J-r9S">
+                            <variation key="widthClass=compact" constant="-6"/>
+                        </constraint>
                         <constraint firstItem="HC3-VH-9oc" firstAttribute="top" secondItem="6Dd-7y-O0H" secondAttribute="top" constant="85" id="pUB-UX-2xn">
                             <variation key="widthClass=compact" constant="60"/>
                         </constraint>
                         <constraint firstAttribute="centerY" secondItem="w54-1D-COV" secondAttribute="centerY" constant="127.5" id="sGy-dV-MfW">
-                            <variation key="widthClass=compact" constant="62.5"/>
+                            <variation key="widthClass=compact" constant="51.5"/>
                         </constraint>
                         <constraint firstAttribute="trailing" secondItem="HC3-VH-9oc" secondAttribute="trailing" constant="20" id="syz-MJ-zjs">
                             <variation key="widthClass=compact" constant="-4"/>
