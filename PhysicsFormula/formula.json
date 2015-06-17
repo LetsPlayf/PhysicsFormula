@@ -254,16 +254,12 @@
                             "titulo": "Densidade"
                             },
                             {
-                            "image": "file",
+                            "image": "PressaoHidrostatica",
                             "titulo": "Pressão hidrostática"
                             },
                             {
-                            "image": "file",
+                            "image": "TeoremaDeStevin",
                             "titulo": "Teorema de Stevin"
-                            },
-                            {
-                            "image": "file",
-                            "titulo": "Teorema de Pascal"
                             }
                             ],
                 "Empuxo": [

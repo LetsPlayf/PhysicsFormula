@@ -27,6 +27,10 @@
 		9A7DC2971B0A8A5700512B86 /* FormulaNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */; };
 		9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */; };
 		9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */; };
+		9AA177831B322FE900C4E955 /* PressaoHidrostatica.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA177821B322FE900C4E955 /* PressaoHidrostatica.xib */; };
+		9AA177851B32324700C4E955 /* PressaoHidrostatica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA177841B32324700C4E955 /* PressaoHidrostatica.swift */; };
+		9AA177871B3237D400C4E955 /* TeoremaDeStevin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA177861B3237D400C4E955 /* TeoremaDeStevin.xib */; };
+		9AA177891B323A3200C4E955 /* TeoremaDeStevin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA177881B323A3200C4E955 /* TeoremaDeStevin.swift */; };
 		9AAA6B741B321D9B001EAE5F /* Densidade.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAA6B731B321D9B001EAE5F /* Densidade.xib */; };
 		9AAA6B761B321ED8001EAE5F /* Densidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA6B751B321ED8001EAE5F /* Densidade.swift */; };
 		AD50E4721B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */; };
@@ -83,6 +87,10 @@
 		9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaNameTableViewCell.swift; sourceTree = "<group>"; };
 		9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VelocidadeMedia.xib; sourceTree = "<group>"; };
 		9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelocidadeMedia.swift; sourceTree = "<group>"; };
+		9AA177821B322FE900C4E955 /* PressaoHidrostatica.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PressaoHidrostatica.xib; sourceTree = "<group>"; };
+		9AA177841B32324700C4E955 /* PressaoHidrostatica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressaoHidrostatica.swift; sourceTree = "<group>"; };
+		9AA177861B3237D400C4E955 /* TeoremaDeStevin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeoremaDeStevin.xib; sourceTree = "<group>"; };
+		9AA177881B323A3200C4E955 /* TeoremaDeStevin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeoremaDeStevin.swift; sourceTree = "<group>"; };
 		9AAA6B731B321D9B001EAE5F /* Densidade.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Densidade.xib; sourceTree = "<group>"; };
 		9AAA6B751B321ED8001EAE5F /* Densidade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Densidade.swift; sourceTree = "<group>"; };
 		AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncaoHorariaDaPosicaoHorizontal.swift; sourceTree = "<group>"; };
@@ -183,6 +191,10 @@
 				9A479B661B31FD2500118412 /* PressaoEmUmaSuperficie.swift */,
 				9AAA6B731B321D9B001EAE5F /* Densidade.xib */,
 				9AAA6B751B321ED8001EAE5F /* Densidade.swift */,
+				9AA177821B322FE900C4E955 /* PressaoHidrostatica.xib */,
+				9AA177841B32324700C4E955 /* PressaoHidrostatica.swift */,
+				9AA177861B3237D400C4E955 /* TeoremaDeStevin.xib */,
+				9AA177881B323A3200C4E955 /* TeoremaDeStevin.swift */,
 			);
 			name = "Hidrostática";
 			sourceTree = "<group>";
@@ -413,6 +425,7 @@
 				9A479B601B31EABB00118412 /* EquacaoDeTorricelli.xib in Resources */,
 				9A2191E61B309D7C001E3F67 /* AceleracaoMedia.xib in Resources */,
 				AD71958F1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */,
+				9AA177871B3237D400C4E955 /* TeoremaDeStevin.xib in Resources */,
 				AD6930C01B31ED8F0047F6D2 /* ForcaPeso.xib in Resources */,
 				AD6930B51B31E69F0047F6D2 /* ComponenteVerticalDaVelocidadeInicial.xib in Resources */,
 				9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */,
@@ -421,6 +434,7 @@
 				AD6930B01B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib in Resources */,
 				AD6930BB1B31E9920047F6D2 /* LeiDeNewton.xib in Resources */,
 				9AAA6B741B321D9B001EAE5F /* Densidade.xib in Resources */,
+				9AA177831B322FE900C4E955 /* PressaoHidrostatica.xib in Resources */,
 				AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,12 +467,14 @@
 				ADE075421B260B9E00DE599B /* SwiftyJSON.swift in Sources */,
 				AD6930BF1B31ED8F0047F6D2 /* ForcaPeso.swift in Sources */,
 				9A239C4C1B28A70E003BD753 /* ImageViewController.swift in Sources */,
+				9AA177891B323A3200C4E955 /* TeoremaDeStevin.swift in Sources */,
 				9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */,
 				9AAA6B761B321ED8001EAE5F /* Densidade.swift in Sources */,
 				9A2191E81B30A2E1001E3F67 /* AceleracaoMedia.swift in Sources */,
 				9A479B5E1B31DB8700118412 /* FuncaoHorariaDaPosicaoEmFuncaoDoTempo.swift in Sources */,
 				9A2191F01B30B482001E3F67 /* FuncaoHorariaDaVelocidade.swift in Sources */,
 				9A5880CB1B0D294B0058563A /* FormulaViewController.swift in Sources */,
+				9AA177851B32324700C4E955 /* PressaoHidrostatica.swift in Sources */,
 				AD6930B41B31E69F0047F6D2 /* ComponenteVerticaDaVelocidadeInicial.xib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
