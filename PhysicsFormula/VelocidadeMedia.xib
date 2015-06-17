@@ -221,7 +221,7 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                             <variation key="widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="48" y="160" width="216" height="21"/>
+                                <rect key="frame" x="48" y="155" width="216" height="21"/>
                             </variation>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rv0-y7-TTR">
@@ -307,7 +307,7 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                             <variation key="widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="28" y="159" width="31" height="21"/>
+                                <rect key="frame" x="28" y="154" width="31" height="21"/>
                             </variation>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxU-KC-e7L">
@@ -316,7 +316,7 @@
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                             <variation key="widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="9" y="158" width="31" height="25"/>
+                                <rect key="frame" x="9" y="153" width="31" height="26"/>
                             </variation>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Δt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKh-fF-yNC">
@@ -371,7 +371,7 @@
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                             <variation key="widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="155" width="31" height="21"/>
+                                <rect key="frame" x="0.0" y="151" width="31" height="21"/>
                             </variation>
                         </label>
                     </subviews>
