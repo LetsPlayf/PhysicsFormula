@@ -24,11 +24,11 @@
                                                     "titulo": "Função horária da velocidade"
                                                     },
                                                     {
-                                                    "image": "4",
+                                                    "image": "FuncaoHorariaDaPosicaoEmFuncaoDoTempo",
                                                     "titulo": "Função horária da posição em função do tempo"
                                                     },
                                                     {
-                                                    "image": "5",
+                                                    "image": "EquacaoDeTorricelli",
                                                     "titulo": "Equação de Torricelli"
                                                     }
                                                     ],
@@ -246,7 +246,7 @@
             "Hidrostática": {
                 "Pressâo": [
                             {
-                            "image": "file",
+                            "image": "PressaoEmUmaSuperficie",
                             "titulo": "Pressão em uma superície"
                             },
                             {
