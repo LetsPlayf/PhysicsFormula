@@ -27,6 +27,8 @@
 		9A7DC2971B0A8A5700512B86 /* FormulaNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */; };
 		9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */; };
 		9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */; };
+		9AAA6B741B321D9B001EAE5F /* Densidade.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAA6B731B321D9B001EAE5F /* Densidade.xib */; };
+		9AAA6B761B321ED8001EAE5F /* Densidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA6B751B321ED8001EAE5F /* Densidade.swift */; };
 		AD50E4721B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */; };
 		AD6930AD1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6930AC1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib */; };
 		AD6930B01B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6930AE1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib */; };
@@ -81,6 +83,8 @@
 		9A7DC2961B0A8A5700512B86 /* FormulaNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaNameTableViewCell.swift; sourceTree = "<group>"; };
 		9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VelocidadeMedia.xib; sourceTree = "<group>"; };
 		9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelocidadeMedia.swift; sourceTree = "<group>"; };
+		9AAA6B731B321D9B001EAE5F /* Densidade.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Densidade.xib; sourceTree = "<group>"; };
+		9AAA6B751B321ED8001EAE5F /* Densidade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Densidade.swift; sourceTree = "<group>"; };
 		AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncaoHorariaDaPosicaoHorizontal.swift; sourceTree = "<group>"; };
 		AD6930AC1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDoDeslocamento.xib; sourceTree = "<group>"; };
 		AD6930AE1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponenteHorizontalDaVelocidadeInicial.xib; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 		9A0CDCF31B2F4B36003F4CE1 /* Mecanica */ = {
 			isa = PBXGroup;
 			children = (
+				9A479B631B31F97D00118412 /* Hidrostática */,
 				AD6930B61B31E9140047F6D2 /* Dinamica */,
 				9A0CDCF41B2F4B3D003F4CE1 /* Cinematica */,
 			);
@@ -139,7 +144,6 @@
 		9A0CDCF41B2F4B3D003F4CE1 /* Cinematica */ = {
 			isa = PBXGroup;
 			children = (
-				9A479B631B31F97D00118412 /* Hidrostática */,
 				AD71958D1B30B468000CAB57 /* Movimento Oblíquo */,
 				AD7195841B30A6E4000CAB57 /* Movimento Uniforme */,
 				9A2191E41B309D39001E3F67 /* Movimento Uniformemente variado */,
@@ -177,6 +181,8 @@
 			children = (
 				9A479B641B31F9B200118412 /* PressaoEmUmaSuperficie.xib */,
 				9A479B661B31FD2500118412 /* PressaoEmUmaSuperficie.swift */,
+				9AAA6B731B321D9B001EAE5F /* Densidade.xib */,
+				9AAA6B751B321ED8001EAE5F /* Densidade.swift */,
 			);
 			name = "Hidrostática";
 			sourceTree = "<group>";
@@ -414,6 +420,7 @@
 				AD6930AD1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib in Resources */,
 				AD6930B01B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib in Resources */,
 				AD6930BB1B31E9920047F6D2 /* LeiDeNewton.xib in Resources */,
+				9AAA6B741B321D9B001EAE5F /* Densidade.xib in Resources */,
 				AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +454,7 @@
 				AD6930BF1B31ED8F0047F6D2 /* ForcaPeso.swift in Sources */,
 				9A239C4C1B28A70E003BD753 /* ImageViewController.swift in Sources */,
 				9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */,
+				9AAA6B761B321ED8001EAE5F /* Densidade.swift in Sources */,
 				9A2191E81B30A2E1001E3F67 /* AceleracaoMedia.swift in Sources */,
 				9A479B5E1B31DB8700118412 /* FuncaoHorariaDaPosicaoEmFuncaoDoTempo.swift in Sources */,
 				9A2191F01B30B482001E3F67 /* FuncaoHorariaDaVelocidade.swift in Sources */,
