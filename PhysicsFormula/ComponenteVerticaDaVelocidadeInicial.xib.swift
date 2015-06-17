@@ -14,7 +14,14 @@ class ComponenteHVerticalDaVelocidadeInicial: UIView {
     @IBOutlet weak var lbl_Resultado: UILabel!
     @IBOutlet weak var txt_angulo: UITextField!
     
+    @IBOutlet weak var cleanButton: UIButton!
+    @IBOutlet weak var resultButton: UIButton!
     
+    override func willMoveToSuperview(newSuperview: UIView?){
+        cleanButton.layer.cornerRadius = 0.09 * cleanButton.bounds.size.width
+        resultButton.layer.cornerRadius = 0.09 * resultButton.bounds.size.width
+    }
+
 
     @IBAction func Limpar(sender: AnyObject) {
         txt_angulo.text = nil
@@ -22,12 +29,32 @@ class ComponenteHVerticalDaVelocidadeInicial: UIView {
         lbl_Resultado.text = "0.00"
     }
     @IBAction func Calcular(sender: AnyObject) {
-        let velocidade = toDouble(txt_Velocidade.text)
-        let angulo = toDouble(txt_angulo.text)
+        if(txt_angulo.text == "" || txt_Velocidade.text == ""){
+            
+            let alert = UIAlertView()
+            alert.title = "Erro"
+            alert.message = "Insira um número válido"
+            alert.addButtonWithTitle("OK")
+            alert.show()
+            
+            
+            
+        }else{
+            var velocidade = toDouble(txt_Velocidade.text)
+            var angulo = toDouble(txt_angulo.text)
         
-        var resultado :Double = velocidade * Double(sin(angulo))
+            //Conversao de graus para radiano
+            angulo = (angulo * M_PI) / 180
+        
+            if(velocidade < 0){
+            velocidade = velocidade * (-1.0)
+            }
 
-        lbl_Resultado.text = String(format: "%.2f", resultado)
+        
+            var resultado :Double = velocidade * Double(sin(angulo))
+
+            lbl_Resultado.text = String(format: "%.2f", resultado) + " m/s"
+        }
     }
     func toDouble(string: NSString) ->Double{
         let newString = string.stringByReplacingOccurrencesOfString(",", withString: ".")

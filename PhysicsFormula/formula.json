@@ -118,7 +118,7 @@
                                    "titulo": "1ª Lei de Newton"
                                    },
                                    {
-                                   "image": "file",
+                                   "image": "LeiDeNewton",
                                    "titulo": "2ª Lei de Newton"
                                    },
                                    {
@@ -132,7 +132,7 @@
                                    ],
                 "Força Peso": [
                                {
-                               "image": "file",
+                               "image": "ForcaPeso",
                                "titulo": "Função horária da velocidade no movimento vertical"
                                }
                                ],

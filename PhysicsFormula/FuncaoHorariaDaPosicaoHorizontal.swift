@@ -14,7 +14,14 @@ class FuncaoHorariaDaPosicaoHorizontal: UIView {
     @IBOutlet weak var txt_Tempo: UITextField!
     @IBOutlet weak var lbl_Resultado: UILabel!
     
+    @IBOutlet weak var cleanButton: UIButton!
+    @IBOutlet weak var resultButton: UIButton!
     
+    override func willMoveToSuperview(newSuperview: UIView?){
+        cleanButton.layer.cornerRadius = 0.09 * cleanButton.bounds.size.width
+        resultButton.layer.cornerRadius = 0.09 * resultButton.bounds.size.width
+    }
+
 
     @IBAction func Limpar(sender: AnyObject) {
         txt_PosicaoHorizontal.text = nil
@@ -23,13 +30,25 @@ class FuncaoHorariaDaPosicaoHorizontal: UIView {
         lbl_Resultado.text = "0.00"
     }
     @IBAction func Calcular(sender: AnyObject) {
-        let velocidade = toDouble(txt_Velocidade.text)
-        let posicaoInicial = toDouble(txt_PosicaoHorizontal.text)
-        let tempo = toDouble(txt_Tempo.text)
+        if(txt_Velocidade.text == "" || txt_Tempo.text == "" || txt_PosicaoHorizontal.text == ""){
+            
+            let alert = UIAlertView()
+            alert.title = "Erro"
+            alert.message = "Insira um número válido"
+            alert.addButtonWithTitle("OK")
+            alert.show()
+            
+            
+            
+        }else{
+            let velocidade = toDouble(txt_Velocidade.text)
+            let posicaoInicial = toDouble(txt_PosicaoHorizontal.text)
+            let tempo = toDouble(txt_Tempo.text)
         
-        var resultado :Double = posicaoInicial + (velocidade * tempo)
+            var resultado :Double = posicaoInicial + (velocidade * tempo)
 
-        lbl_Resultado.text = String(format: "%.2f", resultado) + " m"
+            lbl_Resultado.text = String(format: "%.2f", resultado) + " m"
+        }
     }
     func toDouble(string: NSString) ->Double{
         let newString = string.stringByReplacingOccurrencesOfString(",", withString: ".")

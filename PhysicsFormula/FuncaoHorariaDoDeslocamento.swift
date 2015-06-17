@@ -14,7 +14,13 @@ class FuncaoHorariaDoDeslocamento: UIView {
     @IBOutlet weak var txt_Tempo: UITextField!
     @IBOutlet weak var lbl_Resultado: UILabel!
     
+    @IBOutlet weak var cleanButton: UIButton!
+    @IBOutlet weak var resultButton: UIButton!
     
+    override func willMoveToSuperview(newSuperview: UIView?){
+        cleanButton.layer.cornerRadius = 0.09 * cleanButton.bounds.size.width
+        resultButton.layer.cornerRadius = 0.09 * resultButton.bounds.size.width
+    }
 
     @IBAction func Limpar(sender: AnyObject) {
         txt_PosicaoInicial.text = nil

@@ -7,13 +7,11 @@
 //
 
 import UIKit
-import Foundation
-import Darwin
 
-class ComponenteHorizontalDaVelocidadeInicial: UIView {
-    @IBOutlet weak var txt_Velocidade: UITextField!
+class LeiDeNewton: UIView {
+    @IBOutlet weak var txt_massa: UITextField!
+    @IBOutlet weak var txt_aceleracao: UITextField!
     @IBOutlet weak var lbl_Resultado: UILabel!
-    @IBOutlet weak var txt_angulo: UITextField!
     
     @IBOutlet weak var cleanButton: UIButton!
     @IBOutlet weak var resultButton: UIButton!
@@ -23,13 +21,13 @@ class ComponenteHorizontalDaVelocidadeInicial: UIView {
         resultButton.layer.cornerRadius = 0.09 * resultButton.bounds.size.width
     }
 
+
     @IBAction func Limpar(sender: AnyObject) {
-        txt_angulo.text = nil
-        txt_Velocidade.text = nil
-        lbl_Resultado.text = "0.00"
+        txt_aceleracao.text = nil
+        txt_massa.text = nil
     }
     @IBAction func Calcular(sender: AnyObject) {
-        if(txt_angulo.text == "" || txt_Velocidade.text == ""){
+        if(txt_aceleracao.text == "" || txt_massa.text == ""){
             
             let alert = UIAlertView()
             alert.title = "Erro"
@@ -40,20 +38,12 @@ class ComponenteHorizontalDaVelocidadeInicial: UIView {
             
             
         }else{
-            var velocidade = toDouble(txt_Velocidade.text)
-            var angulo = toDouble(txt_angulo.text)
-            let π = 3.14
+            let massa = toDouble(txt_massa.text)
+            let gravidade = toDouble(txt_aceleracao.text)
         
-            //Conversao de graus para radiano
-            angulo = (angulo * M_PI) / 180
-        
-            if(velocidade < 0){
-                velocidade = velocidade * (-1.0)
-            }
-        
-            var resultado :Double = velocidade * Double(cos(angulo))
-            
-            lbl_Resultado.text = String(format: "%.2f", resultado) + " m/s"
+            var resultado :Double = massa * gravidade
+
+            lbl_Resultado.text = String(format: "%.2f", resultado) + " N"
         }
     }
     func toDouble(string: NSString) ->Double{

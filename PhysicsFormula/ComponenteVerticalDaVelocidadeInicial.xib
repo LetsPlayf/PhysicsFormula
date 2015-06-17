@@ -253,7 +253,7 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                             <variation key="widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="54" y="129" width="67" height="23"/>
+                                <rect key="frame" x="54" y="129" width="204" height="23"/>
                             </variation>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rv0-y7-TTR">
@@ -503,7 +503,9 @@
                 </mask>
             </variation>
             <connections>
+                <outlet property="cleanButton" destination="bUp-dI-VlA" id="tD7-Pd-qwJ"/>
                 <outlet property="lbl_Resultado" destination="W2j-nE-xMb" id="rCB-yR-ddL"/>
+                <outlet property="resultButton" destination="7lI-dK-cPm" id="BRJ-1e-y84"/>
                 <outlet property="txt_Velocidade" destination="Kba-Vi-eIf" id="Cjo-Qt-kQI"/>
                 <outlet property="txt_angulo" destination="QC1-Tj-FL2" id="5F4-Tt-gQn"/>
             </connections>
