@@ -394,12 +394,7 @@
                             <exclude reference="5sD-6I-LlL"/>
                         </mask>
                     </variation>
-<<<<<<< HEAD
                     <variation key="widthClass=compact">
-=======
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="56" y="40" width="288" height="224"/>
->>>>>>> origin/master
                         <mask key="subviews">
                             <include reference="Gpu-SS-FoA"/>
                             <include reference="TDp-wF-av6"/>
