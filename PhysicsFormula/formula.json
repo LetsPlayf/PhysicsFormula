@@ -52,7 +52,7 @@
                                       "titulo": "Função horária da posição horizontal"
                                       },
                                       {
-                                      "image": "10",
+                                      "image": "ComponenteHorizontalDaVelocidadeInicial",
                                       "titulo": "Componente horizontal da velocidade inicial"
                                       },
                                       {
@@ -60,7 +60,7 @@
                                       "titulo": "Função horária da posição vertical"
                                       },
                                       {
-                                      "image": "12",
+                                      "image": "ComponenteVerticalDaVelocidadeInicial",
                                       "titulo": "Componente vertical da velocidade inicial"
                                       },
                                       {

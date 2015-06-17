@@ -22,9 +22,13 @@
 		9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */; };
 		9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */; };
 		AD50E4721B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */; };
+		AD6930AD1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6930AC1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib */; };
+		AD6930B01B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6930AE1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib */; };
+		AD6930B11B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6930AF1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib.swift */; };
+		AD6930B41B31E69F0047F6D2 /* ComponenteVerticaDaVelocidadeInicial.xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6930B21B31E69F0047F6D2 /* ComponenteVerticaDaVelocidadeInicial.xib.swift */; };
+		AD6930B51B31E69F0047F6D2 /* ComponenteVerticalDaVelocidadeInicial.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6930B31B31E69F0047F6D2 /* ComponenteVerticalDaVelocidadeInicial.xib */; };
 		AD71958C1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD71958B1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift */; };
 		AD71958F1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD71958E1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */; };
-		AD7195911B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7195901B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */; };
 		AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B091B2768260075584A /* Main.storyboard */; };
 		AD9B0B0C1B29F0230075584A /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9B0B0B1B29F0230075584A /* image.xcassets */; };
 		ADE075421B260B9E00DE599B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0753E1B260B9E00DE599B /* SwiftyJSON.swift */; };
@@ -62,9 +66,13 @@
 		9A9A52951B2F41E2004463A5 /* VelocidadeMedia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VelocidadeMedia.xib; sourceTree = "<group>"; };
 		9A9A52971B2F431F004463A5 /* VelocidadeMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelocidadeMedia.swift; sourceTree = "<group>"; };
 		AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncaoHorariaDaPosicaoHorizontal.swift; sourceTree = "<group>"; };
+		AD6930AC1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDoDeslocamento.xib; sourceTree = "<group>"; };
+		AD6930AE1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponenteHorizontalDaVelocidadeInicial.xib; sourceTree = "<group>"; };
+		AD6930AF1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponenteHorizontalDaVelocidadeInicial.xib.swift; sourceTree = "<group>"; };
+		AD6930B21B31E69F0047F6D2 /* ComponenteVerticaDaVelocidadeInicial.xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponenteVerticaDaVelocidadeInicial.xib.swift; sourceTree = "<group>"; };
+		AD6930B31B31E69F0047F6D2 /* ComponenteVerticalDaVelocidadeInicial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponenteVerticalDaVelocidadeInicial.xib; sourceTree = "<group>"; };
 		AD71958B1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncaoHorariaDoDeslocamento.swift; sourceTree = "<group>"; };
 		AD71958E1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDaPosicaoHorizontal.xib; sourceTree = "<group>"; };
-		AD7195901B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDaPosicaoHorizontal.xib; sourceTree = "<group>"; };
 		AD9B0B091B2768260075584A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AD9B0B0B1B29F0230075584A /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		ADE0753E1B260B9E00DE599B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
@@ -230,7 +238,7 @@
 		AD7195841B30A6E4000CAB57 /* Movimento Uniforme */ = {
 			isa = PBXGroup;
 			children = (
-				AD7195901B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */,
+				AD6930AC1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib */,
 				AD71958B1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift */,
 			);
 			name = "Movimento Uniforme";
@@ -241,6 +249,10 @@
 			children = (
 				AD71958E1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib */,
 				AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */,
+				AD6930AE1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib */,
+				AD6930AF1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib.swift */,
+				AD6930B21B31E69F0047F6D2 /* ComponenteVerticaDaVelocidadeInicial.xib.swift */,
+				AD6930B31B31E69F0047F6D2 /* ComponenteVerticalDaVelocidadeInicial.xib */,
 			);
 			name = "Movimento Oblíquo";
 			sourceTree = "<group>";
@@ -329,10 +341,12 @@
 				AD9B0B0C1B29F0230075584A /* image.xcassets in Resources */,
 				9A2191EF1B30B482001E3F67 /* FuncaoHorariaDaVelocidade.xib in Resources */,
 				9A2191E61B309D7C001E3F67 /* AceleracaoMedia.xib in Resources */,
-				AD7195911B30BC5B000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */,
 				AD71958F1B30B489000CAB57 /* FuncaoHorariaDaPosicaoHorizontal.xib in Resources */,
+				AD6930B51B31E69F0047F6D2 /* ComponenteVerticalDaVelocidadeInicial.xib in Resources */,
 				9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */,
 				9A4F8EA11B0A75020059EF83 /* formula.json in Resources */,
+				AD6930AD1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib in Resources */,
+				AD6930B01B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib in Resources */,
 				AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +367,7 @@
 			files = (
 				ADE075441B260B9E00DE599B /* CustomHeaderCell.swift in Sources */,
 				9A7DC2971B0A8A5700512B86 /* FormulaNameTableViewCell.swift in Sources */,
+				AD6930B11B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib.swift in Sources */,
 				AD71958C1B30A870000CAB57 /* FuncaoHorariaDoDeslocamento.swift in Sources */,
 				ADE075431B260B9E00DE599B /* AcessData.swift in Sources */,
 				9A4F8E801B0A743C0059EF83 /* ViewController.swift in Sources */,
@@ -364,6 +379,7 @@
 				9A2191E81B30A2E1001E3F67 /* AceleracaoMedia.swift in Sources */,
 				9A2191F01B30B482001E3F67 /* FuncaoHorariaDaVelocidade.swift in Sources */,
 				9A5880CB1B0D294B0058563A /* FormulaViewController.swift in Sources */,
+				AD6930B41B31E69F0047F6D2 /* ComponenteVerticaDaVelocidadeInicial.xib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
