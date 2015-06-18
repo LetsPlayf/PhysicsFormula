@@ -8,13 +8,13 @@
                                "titulo": "Velocidade Média"
                                }
                                ],
-                "Movimento uniforme": [
+                "Movimento Uniforme": [
                                        {
                                        "image": "FuncaoHorariaDoDeslocamento",
                                        "titulo": "Função Horária do deslocamento"
                                        }
                                        ],
-                "Movimento uniformemente variado": [
+                "Movimento Uniformemente Variado": [
                                                     {
                                                     "image": "AceleracaoMedia",
                                                     "titulo": "Aceleração Média"
@@ -273,8 +273,8 @@
                            }
                            ]
             },
-            "Gravitação universal": {
-                "Força gravitacional": [
+            "Gravitação Universal": {
+                "Força Gravitacional": [
                                         {
                                         "image": "file",
                                         "titulo": "Força Gravitacional"

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>DD5F7C38-018F-4107-A281-33B7348A1C06</string>
 	<key>IDESourceControlProjectName</key>
-	<string>PhysicsFormula</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C3CD43D6FDF9CB30C252036717A3E6F24F333782</key>
 		<string>https://github.com/LetsPlayf/PhysicsFormula.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PhysicsFormula.xcodeproj</string>
+	<string>PhysicsFormula.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C3CD43D6FDF9CB30C252036717A3E6F24F333782</key>
