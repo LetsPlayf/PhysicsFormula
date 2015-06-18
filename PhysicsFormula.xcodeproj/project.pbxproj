@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A152E341B33513500272D78 /* Empuxo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A152E331B33513500272D78 /* Empuxo.xib */; };
+		9A152E361B33568200272D78 /* Empuxo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A152E351B33568200272D78 /* Empuxo.swift */; };
 		9A2191E61B309D7C001E3F67 /* AceleracaoMedia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2191E51B309D7C001E3F67 /* AceleracaoMedia.xib */; };
 		9A2191E81B30A2E1001E3F67 /* AceleracaoMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2191E71B30A2E1001E3F67 /* AceleracaoMedia.swift */; };
 		9A2191EF1B30B482001E3F67 /* FuncaoHorariaDaVelocidade.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2191ED1B30B482001E3F67 /* FuncaoHorariaDaVelocidade.xib */; };
@@ -70,6 +72,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A152E331B33513500272D78 /* Empuxo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empuxo.xib; sourceTree = "<group>"; };
+		9A152E351B33568200272D78 /* Empuxo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Empuxo.swift; sourceTree = "<group>"; };
 		9A2191E51B309D7C001E3F67 /* AceleracaoMedia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AceleracaoMedia.xib; sourceTree = "<group>"; };
 		9A2191E71B30A2E1001E3F67 /* AceleracaoMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AceleracaoMedia.swift; sourceTree = "<group>"; };
 		9A2191ED1B30B482001E3F67 /* FuncaoHorariaDaVelocidade.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDaVelocidade.xib; sourceTree = "<group>"; };
@@ -184,6 +188,30 @@
 			name = Velocidade;
 			sourceTree = "<group>";
 		};
+		9A152E311B3350DE00272D78 /* Pressão */ = {
+			isa = PBXGroup;
+			children = (
+				9A479B641B31F9B200118412 /* PressaoEmUmaSuperficie.xib */,
+				9A479B661B31FD2500118412 /* PressaoEmUmaSuperficie.swift */,
+				9AAA6B731B321D9B001EAE5F /* Densidade.xib */,
+				9AAA6B751B321ED8001EAE5F /* Densidade.swift */,
+				9AA177821B322FE900C4E955 /* PressaoHidrostatica.xib */,
+				9AA177841B32324700C4E955 /* PressaoHidrostatica.swift */,
+				9AA177861B3237D400C4E955 /* TeoremaDeStevin.xib */,
+				9AA177881B323A3200C4E955 /* TeoremaDeStevin.swift */,
+			);
+			name = "Pressão";
+			sourceTree = "<group>";
+		};
+		9A152E321B3350F400272D78 /* Empuxo */ = {
+			isa = PBXGroup;
+			children = (
+				9A152E331B33513500272D78 /* Empuxo.xib */,
+				9A152E351B33568200272D78 /* Empuxo.swift */,
+			);
+			name = Empuxo;
+			sourceTree = "<group>";
+		};
 		9A2191E41B309D39001E3F67 /* Movimento Uniformemente variado */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,14 +230,8 @@
 		9A479B631B31F97D00118412 /* Hidrostática */ = {
 			isa = PBXGroup;
 			children = (
-				9A479B641B31F9B200118412 /* PressaoEmUmaSuperficie.xib */,
-				9A479B661B31FD2500118412 /* PressaoEmUmaSuperficie.swift */,
-				9AAA6B731B321D9B001EAE5F /* Densidade.xib */,
-				9AAA6B751B321ED8001EAE5F /* Densidade.swift */,
-				9AA177821B322FE900C4E955 /* PressaoHidrostatica.xib */,
-				9AA177841B32324700C4E955 /* PressaoHidrostatica.swift */,
-				9AA177861B3237D400C4E955 /* TeoremaDeStevin.xib */,
-				9AA177881B323A3200C4E955 /* TeoremaDeStevin.swift */,
+				9A152E321B3350F400272D78 /* Empuxo */,
+				9A152E311B3350DE00272D78 /* Pressão */,
 			);
 			name = "Hidrostática";
 			sourceTree = "<group>";
@@ -464,6 +486,7 @@
 				9AA177871B3237D400C4E955 /* TeoremaDeStevin.xib in Resources */,
 				AD6930C01B31ED8F0047F6D2 /* ForcaPeso.xib in Resources */,
 				AD6930B51B31E69F0047F6D2 /* ComponenteVerticalDaVelocidadeInicial.xib in Resources */,
+				9A152E341B33513500272D78 /* Empuxo.xib in Resources */,
 				9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */,
 				A7DA15691B334A7700B9DFEC /* CelsiusParaKelvin.xib in Resources */,
 				9A4F8EA11B0A75020059EF83 /* formula.json in Resources */,
@@ -510,6 +533,7 @@
 				A7DA156C1B334A7700B9DFEC /* KelvinParaCelsius.swift in Sources */,
 				9A239C4C1B28A70E003BD753 /* ImageViewController.swift in Sources */,
 				9AA177891B323A3200C4E955 /* TeoremaDeStevin.swift in Sources */,
+				9A152E361B33568200272D78 /* Empuxo.swift in Sources */,
 				9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */,
 				A7DA15661B334A7700B9DFEC /* CelsiusParaFahrenheit.swift in Sources */,
 				9AAA6B761B321ED8001EAE5F /* Densidade.swift in Sources */,
