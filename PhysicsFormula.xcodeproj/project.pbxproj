@@ -32,6 +32,14 @@
 		9AA177891B323A3200C4E955 /* TeoremaDeStevin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA177881B323A3200C4E955 /* TeoremaDeStevin.swift */; };
 		9AAA6B741B321D9B001EAE5F /* Densidade.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAA6B731B321D9B001EAE5F /* Densidade.xib */; };
 		9AAA6B761B321ED8001EAE5F /* Densidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA6B751B321ED8001EAE5F /* Densidade.swift */; };
+		A7DA15661B334A7700B9DFEC /* CelsiusParaFahrenheit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DA155E1B334A7700B9DFEC /* CelsiusParaFahrenheit.swift */; };
+		A7DA15671B334A7700B9DFEC /* CelsiusParaFahrenheit.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DA155F1B334A7700B9DFEC /* CelsiusParaFahrenheit.xib */; };
+		A7DA15681B334A7700B9DFEC /* CelsiusParaKelvin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DA15601B334A7700B9DFEC /* CelsiusParaKelvin.swift */; };
+		A7DA15691B334A7700B9DFEC /* CelsiusParaKelvin.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DA15611B334A7700B9DFEC /* CelsiusParaKelvin.xib */; };
+		A7DA156A1B334A7700B9DFEC /* FahrenheitParaCelsius.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DA15621B334A7700B9DFEC /* FahrenheitParaCelsius.swift */; };
+		A7DA156B1B334A7700B9DFEC /* FahrenheitParaCelsius.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DA15631B334A7700B9DFEC /* FahrenheitParaCelsius.xib */; };
+		A7DA156C1B334A7700B9DFEC /* KelvinParaCelsius.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DA15641B334A7700B9DFEC /* KelvinParaCelsius.swift */; };
+		A7DA156D1B334A7700B9DFEC /* KelvinParaCelsius.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DA15651B334A7700B9DFEC /* KelvinParaCelsius.xib */; };
 		AD50E4721B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */; };
 		AD6930AD1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6930AC1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib */; };
 		AD6930B01B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6930AE1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib */; };
@@ -91,6 +99,14 @@
 		9AA177881B323A3200C4E955 /* TeoremaDeStevin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeoremaDeStevin.swift; sourceTree = "<group>"; };
 		9AAA6B731B321D9B001EAE5F /* Densidade.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Densidade.xib; sourceTree = "<group>"; };
 		9AAA6B751B321ED8001EAE5F /* Densidade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Densidade.swift; sourceTree = "<group>"; };
+		A7DA155E1B334A7700B9DFEC /* CelsiusParaFahrenheit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelsiusParaFahrenheit.swift; sourceTree = "<group>"; };
+		A7DA155F1B334A7700B9DFEC /* CelsiusParaFahrenheit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CelsiusParaFahrenheit.xib; sourceTree = "<group>"; };
+		A7DA15601B334A7700B9DFEC /* CelsiusParaKelvin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelsiusParaKelvin.swift; sourceTree = "<group>"; };
+		A7DA15611B334A7700B9DFEC /* CelsiusParaKelvin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CelsiusParaKelvin.xib; sourceTree = "<group>"; };
+		A7DA15621B334A7700B9DFEC /* FahrenheitParaCelsius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FahrenheitParaCelsius.swift; sourceTree = "<group>"; };
+		A7DA15631B334A7700B9DFEC /* FahrenheitParaCelsius.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FahrenheitParaCelsius.xib; sourceTree = "<group>"; };
+		A7DA15641B334A7700B9DFEC /* KelvinParaCelsius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KelvinParaCelsius.swift; sourceTree = "<group>"; };
+		A7DA15651B334A7700B9DFEC /* KelvinParaCelsius.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KelvinParaCelsius.xib; sourceTree = "<group>"; };
 		AD50E4711B30BF0E00FBF47E /* FuncaoHorariaDaPosicaoHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncaoHorariaDaPosicaoHorizontal.swift; sourceTree = "<group>"; };
 		AD6930AC1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuncaoHorariaDoDeslocamento.xib; sourceTree = "<group>"; };
 		AD6930AE1B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponenteHorizontalDaVelocidadeInicial.xib; sourceTree = "<group>"; };
@@ -132,6 +148,7 @@
 		9A0CDCF21B2F4B2D003F4CE1 /* Formulas */ = {
 			isa = PBXGroup;
 			children = (
+				A7DA155B1B334A1A00B9DFEC /* Termologia */,
 				9A0CDCF31B2F4B36003F4CE1 /* Mecanica */,
 			);
 			name = Formulas;
@@ -285,6 +302,29 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		A7DA155B1B334A1A00B9DFEC /* Termologia */ = {
+			isa = PBXGroup;
+			children = (
+				A7DA155D1B334A6800B9DFEC /* Termometria */,
+			);
+			name = Termologia;
+			sourceTree = "<group>";
+		};
+		A7DA155D1B334A6800B9DFEC /* Termometria */ = {
+			isa = PBXGroup;
+			children = (
+				A7DA155E1B334A7700B9DFEC /* CelsiusParaFahrenheit.swift */,
+				A7DA155F1B334A7700B9DFEC /* CelsiusParaFahrenheit.xib */,
+				A7DA15601B334A7700B9DFEC /* CelsiusParaKelvin.swift */,
+				A7DA15611B334A7700B9DFEC /* CelsiusParaKelvin.xib */,
+				A7DA15621B334A7700B9DFEC /* FahrenheitParaCelsius.swift */,
+				A7DA15631B334A7700B9DFEC /* FahrenheitParaCelsius.xib */,
+				A7DA15641B334A7700B9DFEC /* KelvinParaCelsius.swift */,
+				A7DA15651B334A7700B9DFEC /* KelvinParaCelsius.xib */,
+			);
+			name = Termometria;
+			sourceTree = "<group>";
+		};
 		AD6930B61B31E9140047F6D2 /* Dinamica */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,12 +465,16 @@
 				AD6930C01B31ED8F0047F6D2 /* ForcaPeso.xib in Resources */,
 				AD6930B51B31E69F0047F6D2 /* ComponenteVerticalDaVelocidadeInicial.xib in Resources */,
 				9A9A52961B2F41E2004463A5 /* VelocidadeMedia.xib in Resources */,
+				A7DA15691B334A7700B9DFEC /* CelsiusParaKelvin.xib in Resources */,
 				9A4F8EA11B0A75020059EF83 /* formula.json in Resources */,
 				AD6930AD1B31DC180047F6D2 /* FuncaoHorariaDoDeslocamento.xib in Resources */,
 				AD6930B01B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib in Resources */,
 				AD6930BB1B31E9920047F6D2 /* LeiDeNewton.xib in Resources */,
+				A7DA156B1B334A7700B9DFEC /* FahrenheitParaCelsius.xib in Resources */,
 				9AAA6B741B321D9B001EAE5F /* Densidade.xib in Resources */,
 				9AA177831B322FE900C4E955 /* PressaoHidrostatica.xib in Resources */,
+				A7DA156D1B334A7700B9DFEC /* KelvinParaCelsius.xib in Resources */,
+				A7DA15671B334A7700B9DFEC /* CelsiusParaFahrenheit.xib in Resources */,
 				AD9B0B0A1B2768260075584A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +495,7 @@
 			files = (
 				9A479B621B31ECA600118412 /* EquacaoDeTorricelli.swift in Sources */,
 				ADE075441B260B9E00DE599B /* CustomHeaderCell.swift in Sources */,
+				A7DA15681B334A7700B9DFEC /* CelsiusParaKelvin.swift in Sources */,
 				9A7DC2971B0A8A5700512B86 /* FormulaNameTableViewCell.swift in Sources */,
 				AD6930BA1B31E9920047F6D2 /* LeiDeNewton.swift in Sources */,
 				AD6930B11B31DCED0047F6D2 /* ComponenteHorizontalDaVelocidadeInicial.xib.swift in Sources */,
@@ -462,15 +507,18 @@
 				9A479B671B31FD2500118412 /* PressaoEmUmaSuperficie.swift in Sources */,
 				ADE075421B260B9E00DE599B /* SwiftyJSON.swift in Sources */,
 				AD6930BF1B31ED8F0047F6D2 /* ForcaPeso.swift in Sources */,
+				A7DA156C1B334A7700B9DFEC /* KelvinParaCelsius.swift in Sources */,
 				9A239C4C1B28A70E003BD753 /* ImageViewController.swift in Sources */,
 				9AA177891B323A3200C4E955 /* TeoremaDeStevin.swift in Sources */,
 				9A9A52981B2F431F004463A5 /* VelocidadeMedia.swift in Sources */,
+				A7DA15661B334A7700B9DFEC /* CelsiusParaFahrenheit.swift in Sources */,
 				9AAA6B761B321ED8001EAE5F /* Densidade.swift in Sources */,
 				9A2191E81B30A2E1001E3F67 /* AceleracaoMedia.swift in Sources */,
 				9A479B5E1B31DB8700118412 /* FuncaoHorariaDaPosicaoEmFuncaoDoTempo.swift in Sources */,
 				9A2191F01B30B482001E3F67 /* FuncaoHorariaDaVelocidade.swift in Sources */,
 				9A5880CB1B0D294B0058563A /* FormulaViewController.swift in Sources */,
 				9AA177851B32324700C4E955 /* PressaoHidrostatica.swift in Sources */,
+				A7DA156A1B334A7700B9DFEC /* FahrenheitParaCelsius.swift in Sources */,
 				AD6930B41B31E69F0047F6D2 /* ComponenteVerticaDaVelocidadeInicial.xib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

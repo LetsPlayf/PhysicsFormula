@@ -302,31 +302,22 @@
         },
         "Termologia": {
             "Termometria": {
-                "Escalas Termométricas": [
-                                          {
-                                          "image": "200",
-                                          "titulo": "Escala Fahrenheit"
-                                          },
-                                          {
-                                          "image": "201",
-                                          "titulo": "Escala Kelvin"
-                                          }
-                                          ],
+             
                 "Convesões entre escalas": [
                                             {
-                                            "image": "202",
+                                            "image": "CelsiusParaFahrenheit",
                                             "titulo": "Celsius para Fahrenheit"
                                             },
                                             {
-                                            "image": "203",
+                                            "image": "FahrenheitParaCelsius",
                                             "titulo": "Fahrenheit para Celsius"
                                             },
                                             {
-                                            "image": "204",
+                                            "image": "CelsiusParaKelvin",
                                             "titulo": "Celsius para Kelvin"
                                             },
                                             {
-                                            "image": "205",
+                                            "image": "KelvinParaCelsius",
                                             "titulo": "Kelvin para Celsius"
                                             }
                                             ]
